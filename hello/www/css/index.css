@@ -23,23 +23,29 @@ body {
 .app {
     background:url(../img/sfondo.jpg) no-repeat center top; /* 170px x 200px */
     position:absolute ;             /* position in the center of the screen */
-    height:85%;                   /* text area height */
+    height:100%;                   /* text area height */
     width:100%;                   /* text area width */
     text-align:center;
     
 }
 
-.buttons{
+.barra {
     
-    background-color:red;
-    position:static;
-    padding-top: 35%;
+    background-color:#E8BAD1;
+    width: 100%;
+    padding-top: 5%;
+    /*position: static;*/
     
 }
+
+.button {
     
-    
-    
-    
+    background-color: #6B986A;
+    width: 50px;
+    height: 40px;
+    border-bottom-style: dashed;
+}
+
 
 /* Landscape layout (with min-width) */
 /*@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -51,9 +57,10 @@ body {
     
 
 .logo {
-        content:url("../images/logo.png"); 
+        content:url("../img/logo.png"); 
         float:center;
-        padding:200px;
+        padding-top: 80%;
+    
 }
 
 .event {

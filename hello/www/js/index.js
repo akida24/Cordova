@@ -37,3 +37,18 @@ var app = {
 };
 
 app.initialize();
+
+/*
+// Touch start functionality for the buttons
+function touchstarthandler(event)
+{
+    var button= event.target;
+    button.className ="pressed";
+}
+
+// Touch end functionality for the buttond
+function touchendhandler(event)
+{
+    var button= event.target;
+    button.className ="";
+}*/
