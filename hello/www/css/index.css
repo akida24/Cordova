@@ -34,10 +34,7 @@ body {
     align-content: space-around;
     text-align: center;
     
-    
 }
-
-
 
 .logo {
     
@@ -51,37 +48,38 @@ body {
     
     background-color:transparent;
     width: 100%;
-   
-    position: relative;
+    margin: 2px;
+    bottom: 3%;  /* per far stare giù la barra */
+    position: fixed;
     
 }
 
 .barra ul {
     
-    float: left;
     padding: 0;
-    margin: 1px;
-    
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
     
 }
 
 .barra ul li {
     
-    display: inline;
+    display: inline ;
     position: static;
-    
+    margin: auto;
     
 }
 .button {
     
+    align-items: center;
     background-color:#767676;
     font-size: 30px;
     color: white;
     border: 1px;
-    margin: 1px;
-    padding: 15px;
-    width: 60px;
-    float: left;
+    margin: 1px ;
+    padding: 2%;
+    width: 55px;
         
 }
 
@@ -89,6 +87,7 @@ body {
     background-color: #4B946A;
     
 }
+
 
 
 /* SERVICE */

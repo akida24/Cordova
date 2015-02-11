@@ -38,13 +38,7 @@ var app = {
 
 app.initialize();
 
-document.readyState(function){
-    
-    var landheight = window.landheight;
-    
-    var div_home = parentElement.getElementsByClassName('.home');
-    div_home.style.height = portheight;
-}
+
 
     
 
