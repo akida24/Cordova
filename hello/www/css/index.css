@@ -4,12 +4,10 @@
 }
 
 body {
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold [impedisce n azione quando tocchi lo schermo ]*/
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit [evita in questo caso che il testo venga ridimensionato(none) ] */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' [nessun utente può selezionare il contenuto] */
+    -webkit-touch-callout: none;                /* [impedisce n azione quando tocchi lo schermo ]*/
+    -webkit-text-size-adjust: none;             /*  [evita in questo caso che il testo venga ridimensionato(none) ] */
+    -webkit-user-select: none;                  /*  [nessun utente può selezionare il contenuto] */
     background-color:#3b3b3b;
-    /*background-image:-webkit-linear-gradient(top right, #F5F5F7, #313131);*/
-       
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -19,32 +17,42 @@ body {
     width:100%;
     margin: 0px;
     padding: 0px;
+    
 }
 
 /* HOME */
 .home {
+
+    
     background:url(../img/sfondo.jpg) no-repeat center top; 
-    position:absolute ;             
-    height:100%;                   
+    position: relative;   
+    background-size: contain;
+    margin:0;
+    padding: 0;
+    height: 100%;
     width:100%;                   
-    text-align:center;
+    align-content: space-around;
+    text-align: center;
+    
     
 }
+
+
 
 .logo {
     
     content: url("../img/logo.png"); 
-    float: center;
-    /*padding-top: 80%;*/
+    align-content:center;
     
+   
 }
-
+   
 .barra {
     
     background-color:transparent;
     width: 100%;
-    height: 40px;
-    position: static;
+   
+    position: relative;
     
 }
 
@@ -60,10 +68,10 @@ body {
 .barra ul li {
     
     display: inline;
-    position: relative;
+    position: static;
+    
     
 }
- 
 .button {
     
     background-color:#767676;
@@ -90,9 +98,18 @@ body {
     background-color: #3b3b3b;
     background-attachment:fixed;
     width: 100%;
-    height: 100%;
+    height: 80%;
     margin: 0px;
     padding: 0px;
+    text-align: center;
+}
+
+
+.logo {
+    
+    content: url("../img/logo.png"); 
+    float: center;
+   
 }
 
 .barra_servizi {
