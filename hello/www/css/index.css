@@ -50,7 +50,7 @@ body {
     clear: both;
     background-color:transparent;
     width: 100%;
-    margin: 2px;
+    margin: 1px;
     bottom: 3%;  /* per far stare giù la barra */
     position: fixed;
     
@@ -112,22 +112,59 @@ body {
     content: url("../img/logo.png"); 
     position: static;
     margin-top: 5%;
+    margin-bottom: 2%;
    
 }
 
 .barra_servizi {
     
     float: left;
+    text-align: center;
 }
 
+.fa-ul {
+ 
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    
+}
 
-.alpha {
+.cont_icon i {
+    
+    font-size: 25px;
+    position: relative;
+    padding-left: 10px;
+
+}
+
+.cont_icon{
+    
+    width: 20%;
+    margin-left: 1%;
+    float: left; 
+    display: block;
+    color: #4B946A;
+    
+}
+.cont_test{
+      
+    display: block;
+    color: white;
+   
+}
+
+#polish {
+    
+    clear: both;
+}
+
+.alpha { /*classe per il colore delle bande, alpha e beta, praticamente identiche colore a parte*/
     
     list-style-type: none;
-    background-color: #797982;
+    background-color: #767676;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
     font-size: 15px;
-    color: white;
     width: 100%;
     height: auto;
     padding-top: 4%;
@@ -139,10 +176,9 @@ body {
 .beta {
     
     list-style-type: none;
-    background-color: #A6A6A6;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    background-color: #3b3b3b;
     font-size: 15px;
-    color: white;
     width: 100%;
     height: auto;
     padding-top: 4%;
@@ -150,13 +186,7 @@ body {
     margin: 0;
 }
 
-.barra_servizi ul li i {
-    
-    font-size: 25px;
-    position: relative;
-
-}
-
+/*EVENTO INIZIALE*/
 
  Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
