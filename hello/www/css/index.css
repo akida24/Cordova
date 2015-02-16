@@ -218,10 +218,10 @@ body {
     width: 60%;
     height: 100%;
     margin: 0;
+    padding-left: 4%;
     padding-top: 4%;
     padding-bottom: 4%;
     text-align: left;
-    
    
 }
 .promo_icon i {
@@ -229,11 +229,10 @@ body {
     font-size: 50px;
     position: relative;
     padding: 5%;
-    
 
 }
 
-.promo_text hi{
+.promo_text h1{
     
     color: #4B946A;
     margin: 0;
@@ -246,11 +245,9 @@ body {
 }
 
 
-
-
 /*EVENTO INIZIALE*/
 
- Landscape layout (with min-width) */
+ Landscape layout (with min-width) 
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
