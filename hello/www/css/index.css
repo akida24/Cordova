@@ -3,7 +3,7 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-body {
+.body_a {
     -webkit-touch-callout: none;                /* [impedisce n azione quando tocchi lo schermo ]*/
     -webkit-text-size-adjust: none;             /*  [evita in questo caso che il testo venga ridimensionato(none) ] */
     -webkit-user-select: none;                  /*  [nessun utente può selezionare il contenuto] */
@@ -17,6 +17,18 @@ body {
     width:100%;
     margin: 0px;
     padding: 0px;
+    
+}
+
+.body_ { 
+    
+    background-color:#3b3b3b;
+    height:100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align:center;
     
 }
 
@@ -330,3 +342,94 @@ a:hover {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+
+
+
+/* SLIDER */ 
+
+
+.slider {
+    
+    background-color: white;
+    height: 18.75em;
+    width: 100%;
+    position: relative;
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+
+}
+
+.slider li {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #111;
+    height: .5em;
+    width: .5em;
+    position: absolute;
+    z-index: 10;
+    border: .2em solid transparent;
+    bottom: .5em;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+.slider li:nth-child(1) label {
+    left: .5em;
+}
+.slider li:nth-child(2) label {
+    left: 2em;
+}
+.slider li:nth-child(3) label {
+    left: 3.5em;
+}
+
+label:hover {
+    background-color: #4B946A;
+    
+}
+
+.slider img {
+    
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    visibility: hidden;
+    height: 80%;
+    width: 80%;
+    transition: .25s;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+
+}
+
+.slider li input:checked ~ img {
+    
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;/* per sovrapporsi al resto */
+}
+
+input[type="radio" i] {
+    
+    
+    margin: 3px 3px 0px 5px;
+}
+
+
+    
