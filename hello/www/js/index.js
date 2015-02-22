@@ -40,6 +40,16 @@ app.initialize();
 
 
 
+$(function(){
+
+  $('.bxslider').bxSlider({     //oggetto anonimo { } a cui imposti determinate proprietà
+  infiniteLoop: false,
+  hideControlOnEnd: true
+  });
+    
+});
+
+
     
 
 /*

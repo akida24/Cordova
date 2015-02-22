@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html>
@@ -8,54 +7,57 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Angelo Giordano App</title>
     </head>
     <body class="body_">
-         <div class="basic"><img class="logo_top" src="./img/logo.png">
-            <div class="slider_cont">
-                <ul class="slider">
-                    <li>
-                        <input type="radio" id="slide1" name="slide" checked>
-                        <label for="slide1"></label>
-                        <img src="./img/panel1.jpg" ></li>
-                    <li>
-                        <input type="radio" id="slide2" name="slide">
-                        <label for="slide2"></label>
-                        <img src="./img/panel2.jpg"></li>
-                    <li>
-                        <input type="radio" id="slide3" name="slide">
-                        <label for="slide3"></label>
-                        <img src="./img/panel3.jpg"></li>
+        <div class="basic"><img class="logo_top" src="./img/logo.png">
+            <script type="text/javascript">
+                  $(document).ready(function(){
 
+                      $('.bxslider').bxSlider({
+                          mode: 'fade',
+                          captions: true
+                        });
+                 });
+            </script>
+
+           <div class="slider_cont">
+                <ul class="bxslider">
+                    <li><img src="./img/panel1.jpg" /></li>
+                    <li><img src="./img/panel2.jpg"/></li>
+                    <li><img src="./img/panel3.jpg"/></li>
                 </ul>
             </div>
-          </div>
-        
-         <div class="barra">
-            <ul>         
-               <li><a href="index.html"><button class="button" type="button">
-                    <i class="fa fa-home"></i></button></a></li>
-               <li><a href="service.html" ><button class="button" type="button">
-                    <i class="fa fa-scissors"></i></button></a></li>
-               <li><a href="slider.html" ><button class="button" type="button" style="background-color:#4B946A">
-                    <i class="fa fa-camera"></i></button></a></li>
-               <li><a href="promo.html" ><button class="button" type="button">
-                    <i class="fa fa-heart"></i></button></a></li>
-               <li><button class="button" type="button">
-                    <i class="fa fa-book"></i></button></li>
-                <li><a href="style.html"><button class="button" type="button" >
-                    <i class="fa fa-magic"></i></button></a></li>
-               <li><button class="button" type="button">
-                    <i class="fa fa-diamond"></i></button></li>
-               <li><button class="button" type="button">
-                    <i class="fa fa-map-marker"></i></button></li>
-                
-            </ul>  
         </div>
-              
+    
+        <div class="barra">
+                <ul>         
+                   <li><a href="index.html"><button class="button" type="button">
+                        <i class="fa fa-home"></i></button></a></li>
+                   <li><a href="service.html" ><button class="button" type="button">
+                        <i class="fa fa-scissors"></i></button></a></li>
+                   <li><a href="slider.html" ><button class="button" type="button" style="background-color:#4B946A">
+                        <i class="fa fa-camera"></i></button></a></li>
+                   <li><a href="promo.html" ><button class="button" type="button">
+                        <i class="fa fa-heart"></i></button></a></li>
+                   <li><button class="button" type="button">
+                        <i class="fa fa-book"></i></button></li>
+                    <li><a href="style.html"><button class="button" type="button" >
+                        <i class="fa fa-magic"></i></button></a></li>
+                   <li><button class="button" type="button">
+                        <i class="fa fa-diamond"></i></button></li>
+                   <li><button class="button" type="button">
+                        <i class="fa fa-map-marker"></i></button></li>
+
+                </ul>  
+            </div>
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
