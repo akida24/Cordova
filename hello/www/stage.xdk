@@ -1,46 +1,34 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "164e3267-2a27-44ee-9ecf-d288dc2cfdce",
-      "lastModifiedDate": 1423044216991,
-      "creationDate": 1423044216922
+      "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
+      "lastModifiedDate": 1424974361931,
+      "creationDate": 1424974361471
     },
     "sourceDirectory": "",
     "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
     "startFile": "index.html",
+    "projectTags": [],
     "projectFiles": {},
     "projectDirectories": {},
-    "libraries": [
-      {
-        "name": "Cordova",
-        "version": "2.9.0",
-        "data": {
-          "default": true
-        }
-      },
-      {
-        "name": "intelXDK",
-        "version": "4.0.0",
-        "data": {
-          "default": true
-        }
-      }
-    ],
+    "libraries": [],
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
-        "version": "0.2.9",
+        "version": "0.2.13",
         "selectedState": "Auto",
         "data": {},
         "paramvals": {}
       },
       {
         "id": "org.apache.cordova.splashscreen",
-        "version": "0.3.0",
+        "version": "0.3.5",
         "selectedState": "Auto",
         "data": {},
         "paramvals": {}
@@ -60,16 +48,19 @@
         "isActive_": true,
         "appName_": "stage",
         "appID_": "not.yet.specified",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "stable"
+        "crosswalkVersion_": "10",
+        "cordovaCLIVersion_": "4.1.2"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -83,36 +74,43 @@
         "isActive_": true,
         "appName_": "stage",
         "appID_": "not.yet.specified",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "stable"
+        "crosswalkVersion_": "10",
+        "cordovaCLIVersion_": "4.1.2"
       },
       "iOS": {
         "platform_": "ios",
         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "5",
+          "ios-target": "6",
           "ios-configuration": "adhoc"
         },
         "isActive_": true,
         "appName_": "stage",
         "appID_": "not.yet.specified",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "appVersion_": "0.0.1"
+        "appVersion_": "0.0.1",
+        "cordovaCLIVersion_": "4.1.2",
+        "iosProvs_": []
       },
       "Windows8": {
         "platform_": "windows8",
@@ -122,31 +120,17 @@
         "isActive_": true,
         "appName_": "stage",
         "appID_": "not.yet.specified",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "appVersion_": "0.0.0.1"
-      },
-      "WindowsPhone8": {
-        "platform_": "wp8",
-        "runtime_": "Cordova 3.x",
-        "name_": "WindowsPhone8",
-        "preferences_": {},
-        "isActive_": true,
-        "appName_": "stage",
-        "appID_": "not.yet.specified",
-        "appAccess_": "*",
-        "icons_": [],
-        "splashes_": [],
-        "iosProvs_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "appVersion_": "0.0.0.1"
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "4.1.2"
       }
     }
   }
