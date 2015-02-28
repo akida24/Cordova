@@ -43,7 +43,25 @@
                     isMenuOpen = true;
                 } 
             });     
-            $('#grey_back').click(function()
+            $('#close_btn').click(function()
+            {
+                if (isMenuOpen == true)
+                {
+                    $("#menu_smartphone").clearQueue().animate({
+                        left : '-570px'
+                    })
+                    $("#page").clearQueue().animate({
+                        "margin-left" : '0px'
+                    })            
+              $("#grey_back").fadeOut('fast');
+                    $(this).fadeOut(200);
+                    $(".menu_btn").fadeIn(300);
+
+                    isMenuOpen = false;
+                }
+            });
+                
+                $('#grey_back').click(function()
             {
                 if (isMenuOpen == true)
                 {
@@ -65,13 +83,13 @@
 
 
           <div style="position:relative">
-              <div id="top" ><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/173024/menu_smartphone_btn.png" height="35" class="menu_btn" align="left"/></div>
+              <div id="top" ><img src="img/resp_nav_icon.png" height="35" class="menu_btn" align="left"/></div>
             </div>
 
             <div id="grey_back">&nbsp;</div>
         
             <div id="menu_smartphone" class="menu_mobile_app">
-            <div id="menu_top"> <i class="fa fa-bars fa-fw"></i></div>
+            <div id="menu_top"> <img id="close_btn" src="img/resp_nav_icon.png" height="35" class="menu_btn" align="left"/></div>
             <div id="menu_list"> 
             <ul style="overflow-y:auto;">
                 <li><a href="index.html">Home</a></li>

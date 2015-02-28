@@ -41,10 +41,10 @@
     background-size: contain;
     position: fixed;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 15%;
     height: 100%;
     width: 100%;    
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
     
 }
@@ -55,7 +55,7 @@
     position: static;
     float: center;
     padding-top: 5%;
-    margin-top: 70%;    
+    margin-top: 80%;    
    
 }
    
@@ -355,8 +355,8 @@ html,body
 
 #top {
     
-    background-color: #3b3b3b;
-    height: 70px;
+    background-color: #333333;
+    height: 50px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -383,16 +383,9 @@ html,body
 #menu_top {
     
     background-color: #3b3b3b;
-    height: 60px;
+    height: 40px;
     padding-top: 10px;
     
-}
-
-#menu_top i {
-    
-    font-size: 30px;
-    color: white;
-    padding-left: 2%;
 }
 
 #menu_list {
@@ -451,9 +444,11 @@ html,body
 }
 .menu_btn
 {
-  cursor: pointer;
-  left:0px;
-  margin-top: 16px;
+    cursor: pointer;
+    left:0px;
+    padding: 2%;
+    
+
 }
 
 
