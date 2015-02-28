@@ -59,65 +59,17 @@
    
 }
    
-.barra {
-    
-    background-color:transparent;
-    width: 100%;
-    margin: 1px;
-    bottom: 2%;
-   /* per far stare giù la barra */
-    position: fixed;
-    
-}
-
-.barra ul {
-    
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    
-}
-
-.barra ul li {
-    
-    display: inline ;
-    position: static;
-    margin: auto;
-    
-}
-.button {
-    
-    background-color:#767676;
-    font-size: 30px;
-    color: white;
-    border: 1px;
-    margin: 1px ;
-    padding: 2%;
-    width: 55px;
-        
-}
-
-.button:hover {
-    background-color: #4B946A;
-    
-}
-
-a:hover {
-    
-    color: white;
-}
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
 
 .basic {
     
-    background-color: #3b3b3b;
+    background-color: #333333;
     background-attachment: fixed;
     position: static;
     width: 100%;
     height: auto;
-    margin: 0px;
+    margin-top: 15%;
     padding: 0px;
     text-align: center;
 }
@@ -363,18 +315,6 @@ html,body
     padding-left: 10px;
 }
 
-#menu_smartphone {
-    
-    height: 100%;  
-    width: 30%;
-    position:fixed;
-    background:#4B946A;
-    top:0;
-    bottom:0;
-    left:-570px;
-    z-index:9999;
-} 
-
 #menu_top {
     
     height: 55px;
@@ -383,36 +323,46 @@ html,body
     
 }
 
-#menu_list {
+#menu_smartphone {
     
-    position: relative;
-}
+    height: 100%;  
+    width: 20%;
+    position:fixed;
+    background:#4B946A;
+    top:0;
+    bottom:0;
+    left:-570px;
+    z-index:9999;
+    align-content: center;
+
+} 
+
+
 #menu_smartphone ul {
     
       margin:0;
       padding: 0;
       list-style:none;
-      color:#999999;
 } 
 
 #menu_smartphone ul li {
     
-    height:70px;
-    padding-left:10px;
-    line-height:70px;
+    height: 60px;
+    padding-left: 20%;
+    line-height: 70px;
+
 } 
 
 #menu_smartphone ul li:hover {
   background:#3b3b3b;     
 }
 
-#menu_smartphone ul li a {
+#menu_smartphone ul li i{
     
-  color: white;
-  text-decoration: none;
-  font-family:'Roboto';
-  font-weight: 400;
-  font-size: 20px;
+    color: white;
+    font-size: 28px;
+    align-content: center;
+    
 }
 
 

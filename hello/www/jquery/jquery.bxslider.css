@@ -84,7 +84,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #3b3b3b;
+	background: white;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -98,7 +98,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #3b3b3b;
+	background: #4B946A;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
