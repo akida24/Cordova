@@ -1,37 +1,4 @@
 
-* {
-    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
-}
-
-.body_a {
-    -webkit-touch-callout: none;                /* [impedisce n azione quando tocchi lo schermo ]*/
-    -webkit-text-size-adjust: none;             /*  [evita in questo caso che il testo venga ridimensionato(none) ] */
-    -webkit-user-select: none;                  /*  [nessun utente può selezionare il contenuto] */
-    background-color:#3b3b3b;
-    background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
-    height:100%;
-    padding-bottom:10%;
-    text-transform:uppercase;
-    width:100%;
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-.body_ { 
-    
-    background-color:#3b3b3b;
-    height:100%;
-    width:100%;
-    margin: 0px;
-    padding: 0px;
-    display: block;
-    text-align:center;
-    
-}
-
 /* ::::::::::::::::::::::::::::::::::::::: HOME :::::::::::::::::::::::::::::::::::::::::::::: */
 
 .home {
@@ -299,6 +266,9 @@
     -webkit-animation:fade 3000ms infinite;
 }
 
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::: MENU ::::::::::::::::::::::::::::::::::::::::::::::*/
+
 html,body
 {
   margin:0px;
@@ -340,15 +310,15 @@ html,body
 
 #menu_smartphone ul {
     
-      margin:0;
-      padding: 0;
-      list-style:none;
+    margin:0;
+    padding: 0;
+    list-style:none;
+
 } 
 
 #menu_smartphone ul li {
     
     height: 60px;
-    padding-left: 20%;
     line-height: 70px;
 
 } 
@@ -361,7 +331,6 @@ html,body
     
     color: white;
     font-size: 28px;
-    align-content: center;
     
 }
 
