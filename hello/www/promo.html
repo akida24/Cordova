@@ -55,24 +55,7 @@
                     isMenuOpen = true;
                 } 
             });     
-            $('#close_btn').click(function()
-            {
-                if (isMenuOpen == true)
-                {
-                    $("#menu_smartphone").clearQueue().animate({
-                        left : '-570px'
-                    })
-                    $("#page").clearQueue().animate({
-                        "margin-left" : '0px'
-                    })            
-              $("#grey_back").fadeOut('fast');
-                    $(this).fadeOut(200);
-                    $(".menu_btn").fadeIn(300);
 
-                    isMenuOpen = false;
-                }
-            });
-                
                 $('#grey_back').click(function()
             {
                 if (isMenuOpen == true)
@@ -105,8 +88,9 @@
                 <li><a href="index.html"><i class="fa fa-home fa-fw"></i></a></li>
                 <li><a href="service.html"><i class="fa fa-scissors fa-fw"></i></a></li>
                 <li><a href="gallery.html"><i class="fa fa-camera fa-fw"></i></a></li>
-                <li><a href="promo.html"><i class="fa fa-heart fa-fw"></i></a></li>
+                <li><a href="promo.html"><i class="fa fa-shopping-cart fa-fw"></i></i></a></li>
                 <li><a href="style.html"><i class="fa fa-book fa-fw"></i></a></li>
+                <li><a href="calendar.html"><i class="fa fa-calendar fa-fw"></i></i></a></li>
                 </ul>
               </div>  
 
