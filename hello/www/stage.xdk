@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1424974361931,
+      "lastModifiedDate": 1425309208722,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -41,8 +41,8 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "19",
+          "android-minSdkVersion": "2.3",
+          "android-targetSdkVersion": "",
           "android-installLocation": "auto"
         },
         "isActive_": true,
@@ -60,18 +60,19 @@
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "10",
-        "cordovaCLIVersion_": "4.1.2"
+        "cordovaCLIVersion_": "4.1.2",
+        "appAuthor_": ""
       },
       "Android-Crosswalk": {
         "platform_": "android",
         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
+          "android-minSdkVersion": "2.3",
+          "android-targetSdkVersion": "",
           "android-installLocation": "auto"
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "stage",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -96,7 +97,7 @@
           "ios-target": "6",
           "ios-configuration": "adhoc"
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "stage",
         "appID_": "not.yet.specified",
         "appAccess_": [
@@ -117,7 +118,7 @@
         "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "stage",
         "appID_": "not.yet.specified",
         "appAccess_": [

@@ -3,16 +3,12 @@
 
 .home {
     
-    background: url(../img/Sfondo_trasp.png) no-repeat center top;
-    background-attachment: scroll;
-    background-size: contain;
+    background: url("../img/Sfondo_trasp.png") no-repeat scroll;
     position: fixed;
-    margin: 0;
-    padding-top: 15%;
     height: 100%;
     width: 100%;    
-    margin-top: 15%;
     text-align: center;
+    background-size: cover;
     
 }
 
@@ -21,20 +17,15 @@
     content: url("../img/logo.png"); 
     position: static;
     float: center;
-    padding-top: 5%;
-    margin-top: 80%;    
+    padding-top: 90%;
    
 }
    
-
-
 .basic {
     
-    background-color: #333333;
     position: fixed;
     width: 100%;
     height: 100%;
-    margin-top: 15%;
     padding: 0px;
     text-align: center;
 }
@@ -44,10 +35,8 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 5%;
-   
+    margin-top: 15%;
+    margin-bottom: 5%;
 }
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
@@ -132,7 +121,6 @@
     height: auto;
     display:table;
     margin: 0;
-    padding: 0;
     
 }
     
@@ -146,11 +134,14 @@
 
 .promo_icon{
     
-    width: 35%;
+    width: auto;
     height: 100%;
-    margin-right: 5%;
+    position: inherit;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     color: white;
-    display:table-cell; 
+    display: table-cell;
     
 }
 .promo_text{
@@ -158,13 +149,14 @@
     color: white;
     font-family:'Roboto';
     display: table-cell; 
-    width: 60%;
+    position: relative;
+    width: 70%;
     height: 100%;
     margin: 0;
     padding: 0;
     padding-top: 4%;
     padding-bottom: 4%;
-    text-align: left;
+    text-align: center;
    
 }
 .promo_icon i {
@@ -176,13 +168,15 @@
 }
 
 
-.promo_text h2{
+.promo_text h3{
     
+    font-size: 200%;
     margin: 0;
     padding: 0;
 }
 .promo_text h4{
     
+    font-size: 150%;
     margin: 0;
     padding: 0;
 }
@@ -203,6 +197,7 @@
 
 .cont_style h1{
     
+    font-size: 150%;
     color: #00695c;
     margin: 0;
     padding: 0;
@@ -279,12 +274,10 @@
 html,body
 {
   margin:0px;
-  background-color:#333333;
 }
 
 #top {
     
-    background-color: #333333;
     height: 50px;
     position: fixed;
     top: 0px;
@@ -296,6 +289,7 @@ html,body
 #button_menu {
     
     background-color: transparent;
+    object-position: left;
     border: none;
     border-bottom-style: none;
     align-content: center;
@@ -385,6 +379,15 @@ html,body
 
 /* ::::::::::::::::::::::::::::::::::::::::::::: CALENDAR :::::::::::::::::::::::::::::::::::::::: */
 
+#logo_ {
+    
+    position: static;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    
+}
+
+
 .calendar {
     
     margin: 0;
@@ -396,12 +399,12 @@ html,body
     font-size: 100px;
     padding: 0;
     margin: 0;
-    color: #00695c;
+    color: #00bfa5;
 }
 
 #mount {
     
-    color: #00695c;
+    color: #00bfa5;
     margin: 0;
     padding-top: 2%;
     padding-bottom: 5%;
@@ -409,7 +412,8 @@ html,body
 
 #description {
     
-    padding-bottom: 2%;
+    padding-bottom: 4%;
+    padding-left: 2%;
     margin-bottom: 5%;
     color: white;
     font-size: 18px;

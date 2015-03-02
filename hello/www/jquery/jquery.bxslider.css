@@ -30,12 +30,12 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #3b3b3b;
-	-webkit-box-shadow: 0 0 5px #3b3b3b;
-	box-shadow: 0 0 5px #3b3b3b;
-	border:  5px solid #3b3b3b;
+	-moz-box-shadow: 0 0 5px #455a64;
+	-webkit-box-shadow: 0 0 5px #455a64;
+	box-shadow: 0 0 5px #455a64;
+	border:  5px solid #455a64;
 	left: -5px;
-	background: #3b3b3b;
+	background: #455a64;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -72,7 +72,7 @@
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
-	color: #3b3b3b;
+	color: #455a64;
 	padding-top: 20px;
 }
 
@@ -196,7 +196,7 @@
 }
 
 .bx-wrapper .bx-caption span {
-	color: #3b3b3b;
+	color: #455a64;
 	font-family: Arial;
 	display: block;
 	font-size: .85em;
