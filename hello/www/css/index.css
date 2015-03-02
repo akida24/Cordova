@@ -58,6 +58,7 @@
 
 
 
+
 .cont_icon i {
     
     font-size: 25px;
@@ -421,10 +422,33 @@ html,body
     
 }
     
+
+#staggered_test {
     
+    list-style: none;
+}
 
+#staggered-test li {
+    
+    opacity: 0;
+    
+}
 
+#staggered-test1 li {
+    
+    opacity: 0;
+    
+}
 
+#staggered_test1 {
+    
+    list-style: none;
+}
+
+.lista {
+    
+    text-align: left;
+}
  
 
 
