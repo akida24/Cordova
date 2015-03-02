@@ -11,10 +11,13 @@
         <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css">
         <link rel="stylesheet" href="jquery/jquery.bxslider.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/materialize.css"/>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="jquery/jquery.bxslider.min.js"></script>
-        <script src="jquery/jquery.bxslider.js"></script>
+        <script src="js/materialize.js" ></script>
+        
         <title>Angelo Giordano App</title>
     </head>
      
@@ -35,8 +38,8 @@
             <ul class="bxslider">
                 <li><div class="calendar">
                 <div class="date">
-                    <h2 id="day" > 30</h2>
-                    <h3 id="mount"> APRILE </h3>
+                    <h1 id="day" > 30</h1>
+                    <h4 id="mount"> APRILE </h4>
                 </div>
                 <div class="calend_text">
                     <p id="description"> 
@@ -49,22 +52,8 @@
             </div></li>
                 <li><div class="calendar">
                 <div class="date">
-                    <h2 id="day" > 23</h2>
-                    <h3 id="mount"> MAGGIO </h3>
-                </div>
-                <div class="calend_text">
-                    <p id="description"> 
-                    Sabato dalle ore 10:00 nel mio
-                    salone lezioni di trucco con
-                    Daniela Papini.
-                    Per prenotazioni 3333333333
-                    </p>
-                </div>
-            </div></li>
-                <li><div class="calendar">
-                <div class="date">
-                    <h1 id="day" > 24</h1>
-                    <h2 id="mount"> AGOSTO </h2>
+                    <h1 id="day" > 23</h1>
+                    <h4 id="mount"> MAGGIO </h4>
                 </div>
                 <div class="calend_text">
                     <p id="description"> 
@@ -78,7 +67,21 @@
                 <li><div class="calendar">
                 <div class="date">
                     <h1 id="day" > 24</h1>
-                    <h2 id="mount"> NOVEMBRE </h2>
+                    <h4 id="mount"> AGOSTO </h4>
+                </div>
+                <div class="calend_text">
+                    <p id="description"> 
+                    Sabato dalle ore 10:00 nel mio
+                    salone lezioni di trucco con
+                    Daniela Papini.
+                    Per prenotazioni 3333333333
+                    </p>
+                </div>
+            </div></li>
+                <li><div class="calendar">
+                <div class="date">
+                    <h1 id="day" > 24</h1>
+                    <h4 id="mount"> NOVEMBRE </h4>
                 </div>
                 <div class="calend_text">
                     <p id="description"> 
@@ -135,20 +138,19 @@
 
 
           <div style="position:relative">
-              <div id="top" ><img src="img/resp_nav_icon.png" height="35" class="menu_btn" align="left"/></div>
+              <div id="top" ><button id="button_menu" class="waves-effect waves-light menu_btn"><i class="fa fa-bars fa-fw"></i></button></div>
             </div>
 
             <div id="grey_back">&nbsp;</div>
         
-            <div id="menu_smartphone" class="menu_mobile_app">
+            <div id="menu_smartphone" class="menu_mobile_app teal lighten-2"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
             <ul style="overflow-y:auto;">
-                <li><a href="index.html"><i class="fa fa-home fa-fw"></i></a></li>
-                <li><a href="service.html"><i class="fa fa-scissors fa-fw"></i></a></li>
-                <li><a href="gallery.html"><i class="fa fa-camera fa-fw"></i></a></li>
-                <li><a href="promo.html"><i class="fa fa-shopping-cart fa-fw"></i></i></a></li>
-                <li><a href="style.html"><i class="fa fa-book fa-fw"></i></a></li>
-                <li><a href="calendar.html"><i class="fa fa-calendar fa-fw"></i></i></a></li>
-
+                <li><button class="waves-effect waves-light"><a href="index.html"><i class="fa fa-home fa-fw"></i></a></button></li>
+                <li><button class="waves-effect waves-light"><a href="service.html"><i class="fa fa-scissors fa-fw"></i></a></button></li>
+                <li><button class="waves-effect waves-light"><a href="gallery.html"><i class="fa fa-camera fa-fw"></i></a></button></li>
+                <li><button class="waves-effect waves-light"><a href="promo.html"><i class="fa fa-shopping-cart fa-fw"></i></i></a></button></li>
+                <li><button class="waves-effect waves-light"><a href="style.html"><i class="fa fa-book fa-fw"></i></a></button></li>
+                <li><button class="waves-effect waves-light"><a href="calendar.html"><i class="fa fa-calendar fa-fw"></i></i></a></button></li>
                 </ul>
               </div>  
 
