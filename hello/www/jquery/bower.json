@@ -7,7 +7,8 @@
     "jquery.bxslider.js",
     "jquery.bxslider.css",
     "images/bx_loader.gif",
-    "images/controls.png"
+    "images/shift-left.png"
+    "images/shift-right.png"
   ],
   "keywords": [
     "bxslider",
