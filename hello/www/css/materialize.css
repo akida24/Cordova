@@ -5972,9 +5972,9 @@ a.waves-effect .waves-ripple {
     bottom: 0; }
 
 .collapsible {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   margin: 0.5rem 0 1rem 0; }
   .collapsible li {
     -webkit-transition: 0.3s;
@@ -5989,10 +5989,11 @@ a.waves-effect .waves-ripple {
   height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd; }
+  background-color: #1de9b6;
+  border-bottom: 0; }
   .collapsible-header i {
     width: 2rem;
+    color: #1de9b6;
     font-size: 1.6rem;
     line-height: 3rem;
     display: block;
@@ -6003,7 +6004,7 @@ a.waves-effect .waves-ripple {
 .collapsible-body {
   overflow: hidden;
   display: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
