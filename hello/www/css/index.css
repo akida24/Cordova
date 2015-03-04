@@ -365,7 +365,7 @@ html,body
 
 
 #menu_smartphone ul li:hover {
-  background:#3b3b3b;     
+  background:#263238;     
 }
 
 
@@ -472,7 +472,16 @@ html,body
  
 
 
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::: MAPPA :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
+
+#map- {
+    
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
 
 
 
