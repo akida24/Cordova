@@ -12,13 +12,13 @@
       
         <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIPV92qFMv7Zvv9LCyj7aLAT8pyEwlXTc"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
       
        <script type="text/javascript">
         
             function initialize() {
-
                 
-                var myLatlng = new google.maps.LatLng(44.898074,8.8281765);
+                var myLatlng = new google.maps.LatLng(44.898308, 8.865229);
                 var mapOptions = {
                   center: myLatlng,
                   zoom: 13
@@ -34,7 +34,6 @@
                 });
             };
            
-           
             google.maps.event.addDomListener(window, 'load', initialize);
 
            
@@ -45,13 +44,84 @@
   </head>
       
   <body class="basic blue-grey darken-4">
+        <img id="logo-maps" class="logo_top" src="./img/logo.png" />      
       
-      <div id="map-"></div>
       
-              <script src="js/materialize.js" ></script>
-    </body>
+      <script type="text/javascript" >
 
+                $(document).ready(function() 
+        {
+            var isMenuOpen = false;
+
+            $('.menu_btn').click(function()
+            {
+                if (isMenuOpen == false)
+                {
+                    $("#menu_smartphone").clearQueue().animate({
+                        left : '0px' 
+                    })            
+              $("#grey_back").fadeIn('fast');
+                    $(this).fadeOut(200);
+                    $(".close").fadeIn(300);
+
+                    isMenuOpen = true;
+                } 
+            });     
+                         
+                $('#grey_back').click(function()
+            {
+                if (isMenuOpen == true)
+                {
+                    $("#menu_smartphone").clearQueue().animate({
+                        left : '-570px'
+                    })
+                    $("#page").clearQueue().animate({
+                        "margin-left" : '0px'
+                    })            
+              $("#grey_back").fadeOut('fast');
+                    $(this).fadeOut(200);
+                    $(".menu_btn").fadeIn(300);
+
+                    isMenuOpen = false;
+                }
+            });
+        });
+            </script>
+
+
+          <div class="blue-grey darken-3" style="position:relative">
+              <div id="top"><button id="button_menu" class="waves-effect waves-light menu_btn"><i class="fa fa-bars fa-fw"></i></button></div>
+            </div>
+
+            <div id="grey_back">&nbsp;</div>
+        
+            <div id="menu_smartphone" class="menu_mobile_app teal lighten-2"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
+            <ul style="overflow-y:auto;">
+                <li><button class="waves-effect waves-light"><a href="index.html"><i class="fa fa-home fa-fw"></i><br>HomePage</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="servizi.html"><i class="fa fa-scissors fa-fw"></i><br>Servizi</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="gallery.html"><i class="fa fa-camera fa-fw"></i><br>Galleria</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="calendar.html"><i class="fa fa-calendar fa-fw"></i><br>Appuntamenti</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="calendar.html"><i class="fa fa-flask fa-fw"></i><br>Prodotti</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="contatti.html"><i class="fa fa-map-marker fa-fw"></i><br>Contatti</a></button></li>
+
+
+                </ul>
+              </div>  
+
+         </div>
+
+        <p id="apertura"> Aperto da Martedì a Sabato 9:00/18:00 </p>
+        <div id="map-"></div>
+        <p id="info"> via Lorenzo Perosi, 8 - 15057 Tortona (AL) <br>
+                        +39 0131 862723 / +39 335 8105194</p>
+        <p id="email"> info@angelogiordanohair.it </p>
+    
+        <p id="social"> <i class="fa fa-facebook fa-fw"></i> <i class="fa fa-twitter fa-fw"></i> <i class="fa fa-pinterest-p fa-fw"></i> <i class="fa fa-google-plus fa fw"></i></p>
       
+            <script src="js/materialize.js" ></script>      
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+    </body>
 </html>
 
 
