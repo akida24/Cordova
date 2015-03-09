@@ -35,9 +35,10 @@
     
     position: fixed;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 0px;
     text-align: center;
+    
 }
 
 
@@ -51,21 +52,15 @@
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
 
-.lista_collapsable {
+
+.lista_collapsible {
     
     color: white;
-    font-size: 18px;
+    font-size: 1.12em;
     border-style: none;
     font-family: 'roboto';
 }
-    
 
-
-.barra_servizi {
-    
-    float: left;
-    text-align: center;
-}
 
 .fa-ul {
  
@@ -74,58 +69,6 @@
     margin: 0;
     
 }
-
-.cont_icon i {
-    
-    font-size: 25px;
-    position: relative;
-    padding-left: 10px;
-
-}
-
-.cont_icon{
-    
-    width: 18%;
-    margin: 2%;
-    float: left; 
-    display: block;
-    color: #1de9b6;
-    
-}
-.cont_text{
-      
-    margin-bottom: 2px;
-    display: block;
-    color: white;
-   
-}
-
-
-.alpha { /*classe per il colore delle bande, alpha e beta, praticamente identiche colore a parte*/
-    
-    list-style-type: none;
-    font-family: 'Roboto' ;
-    font-size: 15px;
-    width: 100%;
-    height: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;    
-    margin: 0;
-    
-}
-    
-.beta {
-    
-    list-style-type: none;
-    font-family: 'Roboto';
-    font-size: 15px;
-    width: 100%;
-    height: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    margin: 0;
-}
-
 
 /* ::::::::::::::::::::::::::::::::::::::: PROMO ::::::::::::::::::::::::::::::::::::::: */
 
@@ -136,15 +79,15 @@
     padding: 0 auto;
     margin: 0 auto;
     position:relative;
-	min-width:200px;
-	max-width:800px;
+	min-width:12.5em;
+	max-width:50em;
     
 }
 
 .promo_icon{
     
     position:relative;
-    width:200px;
+    width:12.5em;
     height:auto;
     float:left;
     height: auto;
@@ -159,20 +102,20 @@
     color: white;
     font-family:'Roboto';
     position: relative;
-    width: calc(100% -200px);
+    width: calc(100% -12.5em);
     height: auto;
     margin: 0;
     padding: 0;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    min-width: 200px;
-    max-width: 600px;
+    min-width: 12.5em;
+    max-width: 37.5;
    
 }
 .promo_icon i {
     
-    font-size: 40px;
+    font-size: 2.5em;
     position: relative;
     padding: 10%;
 
@@ -242,7 +185,7 @@
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
-    font-size: 20px;
+    font-size: 1.25em;
     padding:2px 0px;
     float: center;
     margin-top: 5%;
@@ -291,12 +234,12 @@ html,body
 
 #top {
     
-    height: 50px;
+    height: 3.16em;
     position: fixed;
     top: 0px;
     padding-top: 5%;
     padding-left: 5%;
-    line-height: 70px;
+    line-height: 4.3em;
     
 }
 
@@ -309,12 +252,12 @@ html,body
     border-bottom-style: none;
     align-content: center;
     color: white;
-    font-size: 35px;
+    font-size: 2em;
 }
 
 #menu_top {
     
-    height: 55px;
+    height: 3.43em;
     padding-top: 5%;
     padding-left: 5%;
     
@@ -323,16 +266,16 @@ html,body
 #menu_smartphone {
     
     height: 100%;  
-    width: 30%;
+    width: auto;
+    max-width: 15em;
     position:fixed;
     top:0;
     bottom:0;
-    left:-570px;
+    left:-35.6em;
     z-index:9999;
-    align-content: center;
+    float: left;
 
 } 
-
 
 #menu_smartphone ul {
     
@@ -340,25 +283,21 @@ html,body
     padding: 0;
     list-style:none;
 
-
 } 
 
+
 #menu_smartphone ul li button {
+        
     
-    background-color: transparent;
     width: 100%;
     border: none;
     border-bottom-style: none;
-    align-content: center;
-    
-    
-}
-
-#menu_smartphone ul li button {
-    
+    background-color: transparent;
     position: static;
     color: white;
-    font-size: 28px;
+    font-size: 1.2em;
+    padding-top: 2%;
+    padding-bottom: 10%;
 }
 
 #menu_smartphone ul li button a:link, a:visited a:link:active, a:visited:active {
@@ -368,7 +307,8 @@ html,body
 
 #menu_smartphone ul li button a {
     
-    font-size: 20px;
+    font-size: 1em;
+    
     
 }
 
@@ -380,9 +320,10 @@ html,body
 
 #menu_smartphone ul li i{
     
+    float: left;
     color: white;
-    font-size: 28px;
-    
+    font-size: 1.75em;
+       
 }
 
 #grey_back {
@@ -407,78 +348,6 @@ html,body
 }
 
 
-/* ::::::::::::::::::::::::::::::::::::::::::::: CALENDAR :::::::::::::::::::::::::::::::::::::::: */
-
-#logo_ {
-    
-    position: static;
-    margin-top: 20%;
-    margin-bottom: 15%;
-    
-}
-
-
-.calendar {
-    
-    margin: 0;
-    padding: 0;
-}
-
-#day {
-    
-    font-size: 100px;
-    padding: 0;
-    margin: 0;
-    color: #00bfa5;
-}
-
-#mount {
-    
-    color: #00bfa5;
-    margin: 0;
-    padding-top: 2%;
-    padding-bottom: 5%;
-}
-
-#description {
-    
-    padding-bottom: 4%;
-    padding-left: 2%;
-    margin-bottom: 5%;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto' ;
-    
-}
-    
-
-#staggered_test {
-    
-    list-style: none;
-}
-
-#staggered-test li {
-    
-    opacity: 0;
-    
-}
-
-#staggered-test1 li {
-    
-    opacity: 0;
-    
-}
-
-#staggered_test1 {
-    
-    list-style: none;
-}
-
-.lista {
-    
-    text-align: left;
-}
- 
 
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::: MAPPA :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -501,7 +370,7 @@ html,body
 #apertura{
     
     margin-bottom: 5%;
-    font-size: 22px;
+    font-size: 1.375em;
     color: #00796b;
     font-family: 'roboto';
 }
@@ -509,14 +378,14 @@ html,body
 #info {
     
     color: white;
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: 'roboto';
     
 }
 
 #email {
     
-    font-size: 20px;
+    font-size: 1.25em;
     color: #00796b;
     font-family: 'roboto';
     
@@ -525,7 +394,7 @@ html,body
 #social {
     
     color: white;
-    font-size: 25px;
+    font-size: 1.4em;
     
     
 }

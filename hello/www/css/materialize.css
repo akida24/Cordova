@@ -5989,11 +5989,10 @@ a.waves-effect .waves-ripple {
   height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  background-color: #1de9b6;
+  background-color: #fff;
   border-bottom: 0; }
   .collapsible-header i {
     width: 2rem;
-    color: #1de9b6;
     font-size: 1.6rem;
     line-height: 3rem;
     display: block;
