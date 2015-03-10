@@ -15,9 +15,13 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js" ></script>
         
+       
+ 
+
+   
         <title>Angelo Giordano App</title>
     </head>
-    <body class="basic blue-grey darken-4"> 
+    <body class="basic blue-grey darken-4" onload="loaded()"> 
         <img class="logo_top"/>
         
         <script type="text/javascript" >
@@ -69,16 +73,19 @@
             <div id="grey_back">&nbsp;</div>
         
             <div id="menu_smartphone" class="menu_mobile_app teal lighten-2" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
-          <ul>
-                <li><button class="waves-effect waves-light"><a href="index.html"><i class="fa fa-home fa-fw"></i>HomePage</a></button></li>
-                <li><button class="waves-effect waves-light"><a href="servizi.html"><i class="fa fa-scissors fa-fw"></i>Servizi</a></button></li>
+            <ul>
+                <li><a href="index.html"><button class="waves-effect waves-light"><i class="fa fa-home fa-fw"></i>Home</button></a></li>
+                <li><button class="waves-effect waves-light"><a href="service.html"><i class="fa fa-scissors fa-fw"></i>Servizi</a></button></li>
                 <li><button class="waves-effect waves-light"><a href="gallery.html"><i class="fa fa-camera fa-fw"></i>Galleria</a></button></li>
-                <li><button class="waves-effect waves-light"><a href="style.html"><i class="fa fa-calendar fa-fw"></i>Style</a></button></li>
-                <li><button class="waves-effect waves-light"><a href="prodotti.html"><i class="fa fa-flask fa-fw"></i>Prodotti</a></button></li>
-              <li><button class="waves-effect waves-light"><a href="social.html"><i class="fa fa-map-marker fa-fw"></i>Social</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="prodotti.html"><i class="fa fa-calendar fa-fw"></i>Moda</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="style.html"><i class="fa fa-flask fa-fw"></i>Prodotti</a></button></li>
+                <li><button class="waves-effect waves-light"><a href="social.html"><i class="fa fa-map-marker fa-fw"></i>Social</a></button></li>
                 <li><button class="waves-effect waves-light"><a href="contatti.html"><i class="fa fa-map-marker fa-fw"></i>Contatti</a></button></li>
+
+
+
                 </ul>
-              </div>  
+              </div>   
 
 
         <script> $(document).ready(function(){
@@ -91,7 +98,7 @@
 
 
 
-        <div style="overflow-y:scroll; -webkit-overflow-scrolling:touch;">
+        <div id="wrapper">
         <ul class="collapsible lista_collapsible" data-collapsible="accordion">
             <li>
               <div class="collapsible-header title_li blue-grey darken-4"><i class="fa fa-plus"></i>Prodotto schiarente ionizzato</div>

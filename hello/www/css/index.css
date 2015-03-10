@@ -33,7 +33,7 @@
    
 .basic {
     
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
     padding: 0px;
@@ -52,6 +52,15 @@
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
 
+
+#wrapper {
+    
+    position: absolute;
+    overflow:auto;
+    width: 100%;
+    z-index:1;
+    
+}
 
 .lista_collapsible {
     
@@ -266,7 +275,7 @@ html,body
 #menu_smartphone {
     
     height: 100%;  
-    width: auto;
+    width: 9em;
     max-width: 15em;
     position:fixed;
     top:0;
@@ -296,14 +305,15 @@ html,body
     position: static;
     color: white;
     font-size: 1.2em;
-    padding-top: 2%;
-    padding-bottom: 10%;
+    padding: 10%;
 }
 
 #menu_smartphone ul li button a:link, a:visited a:link:active, a:visited:active {
     
     color: white;
 }
+
+
 
 #menu_smartphone ul li button a {
     
@@ -322,7 +332,7 @@ html,body
     
     float: left;
     color: white;
-    font-size: 1.75em;
+    font-size: 1.60em;
        
 }
 
