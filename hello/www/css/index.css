@@ -410,5 +410,29 @@ html,body
 }
 
 
+/* :::::::::::::::::::::::::::::::::::::::::::::: PRODOTTI ::::::::::::::::::::::::::::::::::::::::::::: */
+
+.product {
+ 
+    display: inline-block;
+    zoom: -1;
+    
+}
+
+.product button a img {
+    
+    image-resolution: 1em;
+}
+
+.riga_prod div {
+    vertical-align: top;
+    float: left;
+}
+    
+    
+    
+    
+    
+
 
     
