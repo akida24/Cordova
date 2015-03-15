@@ -5,6 +5,7 @@
     
     background: url("../img/Sfondo_trasp.png") no-repeat scroll;
     position: fixed;
+    font-size: 1em;
     top: 4em;
     height: 100%;
     width: 100%;    
@@ -19,6 +20,7 @@
     position: static;
     float: center;
     padding-top: 90%;
+    max-width: 18em;
    
 }
 
@@ -39,6 +41,7 @@
     height: 100%;
     padding: 0px;
     text-align: center;
+    font-size: 1em;
     
 }
 
@@ -47,8 +50,12 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 5%;
+    margin-left: 2%;
+    width: 15em;
+    max-width: 20em;
+
 }
 
 .btn {
@@ -57,11 +64,6 @@
    
 }
 
-.modal_content p {
-    
-    text-transform: lowercase;
-    text-decoration-color: white;
-}
 
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
@@ -187,10 +189,9 @@
 
 .lista_img{
     
-    width: 100%;
+    
     align-content: center;
 }
-
 
 /* ::::::::::::::::::::::::::::::::::::::: EVENTO INIZIALE :::::::::::::::::::::::::::::::::::::::*/
 
@@ -393,7 +394,7 @@ html,body
 
 #apertura{
     
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 1.375em;
     color: #00796b;
     font-family: 'roboto';
