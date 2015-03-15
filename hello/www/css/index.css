@@ -5,6 +5,7 @@
     
     background: url("../img/Sfondo_trasp.png") no-repeat scroll;
     position: fixed;
+    top: 4em;
     height: 100%;
     width: 100%;    
     text-align: center;
@@ -48,6 +49,17 @@
     position: static;
     margin-top: 15%;
     margin-bottom: 5%;
+}
+
+.btn {
+    
+    float: right;
+   
+}
+
+.modal_content p {
+    
+    text-transform: lowercase;
 }
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
@@ -418,15 +430,21 @@ html,body
     
 }
 
-.product button a img {
+.product{
     
-    image-resolution: 1em;
+    width: 8em;
+    height: 8em;
+    margin: 1em;
+    padding: 0;
+    
 }
 
-.riga_prod div {
-    vertical-align: top;
-    float: left;
+.product a img {
+    
+    max-height: 8em;
+    max-width: 8em;
 }
+
     
     
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::: SOCIAL ::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -437,8 +455,7 @@ html,body
     position: relative;
     padding-top: 40%;
     
- 
-    
+  
     
 }
     
