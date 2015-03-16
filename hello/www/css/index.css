@@ -19,8 +19,8 @@
     content: url("../img/logo.png"); 
     position: static;
     float: center;
-    padding-top: 90%;
-    max-width: 60%;
+    padding-top: 80%;
+    max-width: 70%;
     height: auto;
    
 }
@@ -45,7 +45,7 @@
     margin-top: 15%;
     margin-bottom: 5%;
     margin-left: 2%;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 
 }
@@ -438,8 +438,8 @@ html,body
     box-shadow: 4px 4px 5px #455a64 ;
     border-bottom: none;
     border-style: none;
-    width: 8em;
-    height: 8em;
+    width: 35%;
+    height: 30%;
     margin: 1em;
     padding: 0;
     display: inline-block;
@@ -451,7 +451,7 @@ html,body
 .product a img {
     
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 

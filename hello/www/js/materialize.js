@@ -2578,8 +2578,8 @@ $(document).ready(function(){
     var defaults = {
       indicators: true,
       height: 400,
-      transition: 500,
-      interval: 60000
+      transition: 1500,
+      interval: 600000
     }
     options = $.extend(defaults, options);
 
