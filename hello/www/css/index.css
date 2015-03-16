@@ -20,19 +20,11 @@
     position: static;
     float: center;
     padding-top: 90%;
-    max-width: 18em;
+    max-width: 60%;
+    height: auto;
    
 }
 
-.logo_ {
-    
-    content: url("../img/logo.png"); 
-    position: relative;
-    padding-top: 90%;
-    padding-left: 20%;
-    align-content: center;
-
-}
    
 .basic {
     
@@ -50,11 +42,11 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 5%;
     margin-left: 2%;
-    width: 15em;
-    max-width: 20em;
+    max-width: 50%;
+    height: auto;
 
 }
 
@@ -64,6 +56,11 @@
    
 }
 
+.modal_content p {
+    
+    text-transform: lowercase;
+    text-decoration-color: white;
+}
 
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
@@ -191,6 +188,13 @@
     
     
     align-content: center;
+}
+
+.lista_img li img {
+    
+    max-width: 100%;
+    height: auto;
+    
 }
 
 /* ::::::::::::::::::::::::::::::::::::::: EVENTO INIZIALE :::::::::::::::::::::::::::::::::::::::*/
