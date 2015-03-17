@@ -358,11 +358,6 @@ html,body
 }
 
 
-#menu_smartphone ul li:hover {
-  background:#263238;     
-}
-
-
 #menu_smartphone ul li i{
     
     float: left;
@@ -391,9 +386,6 @@ html,body
     
 
 }
-
-
-
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::: MAPPA :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
