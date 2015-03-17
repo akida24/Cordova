@@ -6007,8 +6007,9 @@ a.waves-effect .waves-ripple {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .collapsible-body p {
+  .collapsible-body p{
     margin: 0;
+      text-align: left;
     padding: 2rem; }
 
 ul.side-nav ul.collapsible {
