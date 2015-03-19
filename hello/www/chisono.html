@@ -1,48 +1,35 @@
-
-<!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        
         <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css">
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/materialize.css"/>
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js" ></script>
         
         <title>Angelo Giordano App</title>
     </head>
-     
-     <body class="basic blue-grey darken-4">
+    
+    <body class="basic blue-grey darken-4">
         <div >
-            <img class="logo_top" src="./img/logo.png" />
+            <img class="logo_top" src="./img/logo.png">
+            <div class="cont_style">
+              <h1>Dura poco l'apparire, <br> dura per la vita l'essere!</h1>
+              <p>..MI OCCUPO DI BELLEZZA, DI FAR STARE MEGLIO UNA CLIENTE, FARLA FELICE, CAPIRE QUELLO CHE VUOLE VERAMENTE, FAR CAPIRE CHE I CAPELLI NON SONO UNA SEMPLICE                MESSA IN PIEGA CHE SVANISCE AL PRIMO SONNO, E COPRIRE I CAPELLI BIANCHI. INTENDO DARE UN MESSAGGIO, CREARE UN'ARMONIA CON IL RESTO DEL CORPO, PORTARE AD ESSERE PIU' BELLE, AVERE CAPELLI ADATTI A UNA E PIU' OCCASIONI, TRASMETTERE L'IMPORTANZA DI CAPELLI SANI E LUCIDI USANDO I MIGLIORI PRODOTTI IN CIRCOLAZIONE PER                        GARANTIRE ANCHE LA SALUTE MIA E DELLA CLIENTE. </p>
 
-            <script>                
-                $(document).ready(function(){
-              $('.slider').slider({full_width: true});
-            });
-            </script>
-            
-           
-            <div class="slider">
-            <ul id="lista_img" class="slides">
-                <li><img src="./img/gallery/image1.jpg" /></li>
-                <li><img src="./img/gallery/image11.jpeg"/></li>
-                <li><img src="./img/gallery/image16.jpeg"/></li>
-                <li><img src="./img/gallery/image2.jpeg"/></li>
-                <li><img src="./img/gallery/image24.jpeg"/></li>
-                <li><img src="./img/gallery/image4.jpg"/></li>
-                <li><img src="./img/gallery/image5.jpeg"/></li>
-            </ul>
-                </div>
+                <p>..mI PREME TRASMETTERE ALLA CLIENTE CHE CERCARE DI ACCONTENTARLA E' LA PRIMA COSA MA ANCHE FARLA SENTIRE AL SICURO, IN MODO CHE
+                VOGLIA AFFIDARSI NELLE MANI DI UN PROFESSIONISTA CHE FARA' TUTTO IL POSSIBILE CON LA MASSIMA DISPONIBILITA' PER ACCONTENTARE LA PROPRIA CLIENTELA, NON                  ESSERE UN SEMPLICE MESTIERANTE CHE ESEGUE DEGLI ORDINI MA INTERAGIRE E METTERE A DISPOSIZIONE TUTTA LA PROPRIA COMPETENZA PER GUIDARLA E PORTARLA AD ESSERE UN ESEMPIO DA IMITARE.</p>
 
-           
-
+                <p>..iNTENDO ESSERE UN MODERNO AL PASSO CON I TEMPI, SEMPRE PRONTO AL MEGLIO E AL NUOVO INSIEME CON LA PROPRIA CLIENTELA. UN TAGLIO, UN'ACCONCIATURA, UN
+                    COLORE DEVONO ESSERE SI' ARMONIA, CREATIVITA', MA ANCHE CONCRETEZZA, DURARE NEL TEMPO, AVERE UN'ANIMA.</p>
+            </div>
+         
         <script type="text/javascript" >
 
             $(document).ready(function() 
@@ -63,7 +50,7 @@
                     isMenuOpen = true;
                 } 
             });     
-           
+                
                 $('#grey_back').click(function()
             {
                 if (isMenuOpen == true)
@@ -91,9 +78,9 @@
 
             <div id="grey_back">&nbsp;</div>
         
-           <div id="menu_smartphone" class="menu_mobile_app teal lighten-2" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
+            <div id="menu_smartphone" class="menu_mobile_app teal lighten-2" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
             <ul>
-                <li><a href="index.html"><button class="waves-effect waves-light"><i class="fa fa-home fa-fw"></i>Home</button></a></li>
+               <li><a href="index.html"><button class="waves-effect waves-light"><i class="fa fa-home fa-fw"></i>Home</button></a></li>
                 <li><a href="chisono.html"><button class="waves-effect waves-light"><i class="fa fa-user"></i>Chi sono</button></a></li>
                 <li><a href="service.html"><button class="waves-effect waves-light"><i class="fa fa-scissors fa-fw"></i>Servizi</button></a></li>
                 <li><a href="gallery.html"><button class="waves-effect waves-light"><i class="fa fa-picture-o"></i>Galleria</button></a></li>

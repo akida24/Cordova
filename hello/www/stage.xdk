@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1425309208722,
+      "lastModifiedDate": 1426610177836,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -32,6 +32,19 @@
         "selectedState": "Auto",
         "data": {},
         "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.geolocation",
+        "version": "0.3.11",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "com.phonegap.plugins.twitter",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
       }
     ],
     "serviceMethods": [],
@@ -46,7 +59,7 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "stage",
+        "appName_": "Angelo Giordano Hair",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -54,14 +67,22 @@
           }
         ],
         "icons_": [],
-        "splashes_": [],
+        "splashes_": [
+          {
+            "relPath": "img/sfondo.jpg",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          }
+        ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
-        "appAuthor_": ""
+        "appAuthor_": "Twistar"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -94,11 +115,11 @@
         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "6",
+          "ios-target": "5.1.1",
           "ios-configuration": "adhoc"
         },
-        "isActive_": false,
-        "appName_": "stage",
+        "isActive_": true,
+        "appName_": "Angelo Giordano Hair",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -111,7 +132,10 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "cordovaCLIVersion_": "4.1.2",
-        "iosProvs_": []
+        "iosProvs_": [],
+        "appDescription_": "",
+        "appAuthor_": "Twistar",
+        "appVersionCode_": ""
       },
       "Windows8": {
         "platform_": "windows8",

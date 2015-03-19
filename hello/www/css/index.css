@@ -4,13 +4,14 @@
 .home {
     
     background: url("../img/Sfondo_trasp.png") no-repeat scroll;
-    position: fixed;
-    font-size: 1em;
-    top: 4em;
-    height: 100%;
+    position: absolute;
+    font-size: 1.3em;
+    font-family: 'Open Sans';
     width: 100%;    
+    top: 2em;
     text-align: center;
     background-size: cover;
+    overflow: auto;
     
 }
 
@@ -19,8 +20,8 @@
     content: url("../img/logo.png"); 
     position: static;
     float: center;
-    padding-top: 80%;
-    max-width: 70%;
+    padding-top: 70%;
+    width: 80%;
     height: auto;
    
 }
@@ -29,11 +30,13 @@
 .basic {
     
     position: absolute;
+    font-family: 'Open Sans';
     width: 100%;
-    height: 100%;
     padding: 0px;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
+    overflow: auto;
+
     
 }
 
@@ -45,7 +48,7 @@
     margin-top: 15%;
     margin-bottom: 5%;
     margin-left: 2%;
-    max-width: 60%;
+    max-width: 80%;
     height: auto;
 
 }
@@ -56,18 +59,10 @@
     float: right;
 }
    
-}
-
-.modal_content p {
-    
-    text-transform: lowercase;
-    text-decoration-color: white;
-}
-
 #news {
     
     position: relative;
-    float: right;
+    background-color: #00695c;
 }
 
 
@@ -86,9 +81,7 @@
 .lista_collapsible {
     
     color: white;
-    font-size: 1.12em;
     border-style: none;
-    font-family: 'roboto';
 }
 
 
@@ -132,8 +125,6 @@
 .promo_text{
       
     color: white;
-    font-size: 1em;
-    font-family: 'Roboto';
     position: relative;
     width: 70%;
     float: right;
@@ -157,14 +148,18 @@
 
 .promo_text h3{
     
-    font-size: 1.5em;
+    font-size: 1.4em;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1em;
     margin: 0;
     padding: 0;
     color: #00bfa5 ;
 }
 .promo_text h4{
     
-    font-size: 1.2em;
+    font-size: 1.4em;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
@@ -183,20 +178,25 @@
     width: 100%;
     height: auto;
     text-align: left;
+    text-transform: lowercase;
     margin: 0;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 5%;
+    line-height: 1.5em;
     
 }
 
 .cont_style h1{
     
-    font-size: 200%;
+    font-size: 1.4em;
+    text-align: left;
+    text-transform: uppercase;
     color: #00bfa5;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
+    line-height: 2em;
     
 }
 
@@ -232,13 +232,11 @@
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
-    font-size: 1.25em;
+    font-size: 1.125em;
     padding:2px 0px;
     float: center;
-    margin-top: 5%;
     margin-left: 20%;
     width: 60%;
-    font-family: 'Roboto';
     
 }
 
@@ -281,12 +279,11 @@ html,body
 
 #top {
     
-    height: 3.16em;
+    height: 3em;
     position: fixed;
     top: 0px;
     padding-top: 5%;
     padding-left: 5%;
-    line-height: 4.3em;
     
 }
 
@@ -294,10 +291,8 @@ html,body
 #button_menu {
     
     background-color: transparent;
-    object-position: left;
     border: none;
     border-bottom-style: none;
-    align-content: center;
     color: white;
     font-size: 2em;
 }
@@ -314,6 +309,7 @@ html,body
     
     height: 100%;  
     width: 10em;
+    font-size: 1.3em;
     max-width: 15em;
     position:fixed;
     top:0;
@@ -342,8 +338,11 @@ html,body
     background-color: transparent;
     position: static;
     color: white;
-    font-size: 1.2em;
-    padding: 10%;
+    padding-left:  10%;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    
+    text-align: left;
 }
 
 #menu_smartphone ul li button a:link, a:visited a:link:active, a:visited:active {
@@ -352,20 +351,14 @@ html,body
 }
 
 
-
-#menu_smartphone ul li button a {
-    
-    font-size: 1em;
-    
-    
-}
-
-
 #menu_smartphone ul li i{
     
     float: left;
     color: white;
     font-size: 1.60em;
+    margin-right: 15%;
+    width: 30px;
+    text-align: left;
        
 }
 
@@ -410,16 +403,14 @@ html,body
 #apertura{
     
     margin-bottom: 2%;
-    font-size: 1.375em;
+    font-size: 1.4em;
     color: #00bfa5 ;
-    font-family: 'roboto';
 }
 
 #info {
     
     color: white;
     font-size: 1.25em;
-    font-family: 'roboto';
     
 }
 
@@ -427,7 +418,6 @@ html,body
     
     font-size: 1.25em;
     color: #00796b;
-    font-family: 'roboto';
     
 }
 
@@ -443,7 +433,6 @@ html,body
     
     font-size: 1.25em;
     color: #00796b;
-    font-family: 'roboto';
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::::::: PRODOTTI ::::::::::::::::::::::::::::::::::::::::::::: */
