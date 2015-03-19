@@ -32,6 +32,7 @@
     position: absolute;
     font-family: 'Open Sans';
     width: 100%;
+    height: 100%;
     padding: 0px;
     text-align: center;
     font-size: 1.3em;
@@ -61,7 +62,7 @@
    
 #news {
     
-    position: relative;
+    position: static;
     background-color: #00695c;
 }
 
@@ -470,12 +471,6 @@ html,body
     
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::: SOCIAL ::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-#donnina{
-    
-    max-width: 100%;
-    height: auto;
-    padding-left: 30%;
-}
 
 .social {
     
