@@ -4,10 +4,11 @@
 .home {
     
     background: url("../img/Sfondo_trasp.png") no-repeat scroll;
-    position: absolute;
-    font-size: 1.3em;
+    position: relative;
+    font-size: 1.1em;
     font-family: 'Open Sans';
-    width: 100%;    
+    width: 100%; 
+    height: auto;
     top: 2em;
     text-align: center;
     background-size: cover;
@@ -18,9 +19,10 @@
 .logo {
     
     content: url("../img/logo.png"); 
-    position: static;
+    position: inherit;
     float: center;
     padding-top: 70%;
+    padding-bottom: 1%;
     width: 80%;
     height: auto;
    
@@ -35,7 +37,7 @@
     height: 100%;
     padding: 0px;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     overflow: auto;
 
     
@@ -46,10 +48,10 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    margin-top: 12%;
+    margin-bottom: 8%;
     margin-left: 2%;
-    max-width: 80%;
+    width: 65%;
     height: auto;
 
 }
@@ -62,9 +64,25 @@
    
 #news {
     
-    position: static;
     background-color: #00695c;
 }
+
+#giordi {
+ 
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-bottom: 1em;
+    position: relative;
+    float: left;
+    image-orientation: 
+    
+    
+}
+
+
+
 
 
 /*  ::::::::::::::::::::::::::::::::::::::: SERVICE ::::::::::::::::::::::::::::::::::::::: */
@@ -151,7 +169,6 @@
     
     font-size: 1.4em;
     text-align: left;
-    text-transform: uppercase;
     line-height: 1em;
     margin: 0;
     padding: 0;
@@ -171,7 +188,7 @@
 }
 
 
-/* ::::::::::::::::::::::::::::::::::::::: STYLE ::::::::::::::::::::::::::::::::::::::: */
+/* ::::::::::::::::::::::::::::::::::::::: STYLE + CHI SONO::::::::::::::::::::::::::::::::::::::: */
 
 .cont_style {
     
@@ -190,9 +207,8 @@
 
 .cont_style h1{
     
-    font-size: 1.4em;
+    font-size: 1.35em;
     text-align: left;
-    text-transform: uppercase;
     color: #00bfa5;
     margin: 0;
     padding: 0;
@@ -215,6 +231,11 @@
     max-width: 100%;
     height: auto;
     
+}
+
+.indicators{
+    
+    top:95%;
 }
 
 /* ::::::::::::::::::::::::::::::::::::::: EVENTO INIZIALE :::::::::::::::::::::::::::::::::::::::*/
@@ -295,7 +316,7 @@ html,body
     border: none;
     border-bottom-style: none;
     color: white;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 #menu_top {
@@ -309,8 +330,7 @@ html,body
 #menu_smartphone {
     
     height: 100%;  
-    width: 10em;
-    font-size: 1.3em;
+    width: 11em;
     max-width: 15em;
     position:fixed;
     top:0;
