@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1426610177836,
+      "lastModifiedDate": 1427495159916,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -56,7 +56,8 @@
         "preferences_": {
           "android-minSdkVersion": "2.3",
           "android-targetSdkVersion": "",
-          "android-installLocation": "auto"
+          "android-installLocation": "auto",
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "Angelo Giordano Hair",
@@ -66,14 +67,39 @@
             "origin": "*"
           }
         ],
-        "icons_": [],
+        "icons_": [
+          {
+            "relPath": "icon_launcher/res/web_hi_res_ldpi.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "icon_launcher/res/mipmap-mdpi/ic_launcher.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "icon_launcher/res/mipmap-hdpi/ic_launcher.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "icon_launcher/res/mipmap-xhdpi/ic_launcher.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
         "splashes_": [
           {
-            "relPath": "img/sfondo.jpg",
+            "relPath": "img/sfondobis.jpg",
             "density": "ldpi",
-            "height": 426,
-            "width": 320,
-            "orientation": "portrait"
+            "height": 320,
+            "width": 426,
+            "orientation": "landscape"
           }
         ],
         "addlPermissions_": "",
@@ -82,7 +108,8 @@
         "appVersionCode_": "1",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
-        "appAuthor_": "Twistar"
+        "appAuthor_": "Twistar",
+        "appDescription_": ""
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -116,7 +143,8 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "5.1.1",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "adhoc",
+          "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "Angelo Giordano Hair",

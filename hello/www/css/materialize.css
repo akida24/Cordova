@@ -4858,7 +4858,8 @@ span.badge {
       margin-left: 0; }
     .row .col.s12 {
       width: 100%;
-      margin-left: 0; }
+      margin-left: 0;
+      padding : 0;  }
     .row .col.offset-s1 {
       margin-left: 8.33333%; }
     .row .col.offset-s2 {
@@ -5587,7 +5588,6 @@ small {
 
 .tabs {
   position: relative;
-  height: 58px;
   background-color: #eceff1;
   margin: 0 auto;
   width: 100%;
@@ -5596,16 +5596,16 @@ small {
     display: block;
     float: left;
     text-align: center;
-    background-color: #eceff1;
-    line-height: 48px;
-    height: 48px;
+    background-color: transparent;
+    line-height: 40px;
+    height: 40px;
     padding: 0 20px;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
     width: 15%; }
     .tabs li.tab a {
       color: #00796b;
+        font-family: "open sans";
       display: block;
       width: 100%;
       height: 100%;
@@ -6000,7 +6000,7 @@ a.waves-effect .waves-ripple {
     float: left;
     text-align: center;
     margin-right: 1rem;
-    padding-right: 15%;
+    padding-right: 20%;
     padding-left: 5%;
   }
 
@@ -7260,8 +7260,8 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
     opacity: 0; } }
 
 .slider {
-  position: relative;
-  height: auto;
+  position: absolute;
+  height: 90%;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -7274,8 +7274,9 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
     .slider.fullscreen ul.slides {
       height: 100%; }
     .slider.fullscreen ul.indicators {
-      z-index: 2;
-      bottom: 30px; }
+      z-index: 50;
+      bottom: 30px;
+    }
   .slider ul.slides {
     background-color: #9e9e9e;
     margin: 0;
@@ -7294,7 +7295,7 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
       height: auto;
       overflow: hidden; }
       .slider ul.slides li img {
-        height: 100%;
+        height: 90%;
         width: 100%;
         background-size: cover;
         background-position: center; }
@@ -7319,14 +7320,17 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0; }
+    margin: 0;
+    z-index: 9999;
+    top: inherit;
+  }
     .slider ul.indicators li.indicator-item {
       display: inline-block;
       position: relative;
       cursor: pointer;
       height: 16px;
       width: 16px;
-      margin: 0.75em;
+      margin: 0.60em;
       background-color: #e0e0e0;
       -webkit-transition: background-color 0.3s;
       -moz-transition: background-color 0.3s;

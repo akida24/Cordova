@@ -37,7 +37,7 @@
     height: 100%;
     padding: 0px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     overflow: auto;
 
     
@@ -48,8 +48,8 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 12%;
-    margin-bottom: 8%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     margin-left: 2%;
     width: 65%;
     height: auto;
@@ -67,17 +67,35 @@
     background-color: #00695c;
 }
 
+/* :::::::::::::::::::::::::::::::::::::::::::: CHI SONO :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 #giordi {
  
     width: 40%;
     height: auto;
     margin-left: 10%;
     margin-right: 2%;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
     position: relative;
     float: left;
     image-orientation: 
     
+    
+}
+
+.cont_giordi {
+    
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    text-transform: lowercase;
+    margin: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    line-height: 1.5em;
     
 }
 
@@ -125,8 +143,6 @@
 	/*max-width:50em;*/
     
 }
-
-
 
 .promo_icon{
     
@@ -188,7 +204,7 @@
 }
 
 
-/* ::::::::::::::::::::::::::::::::::::::: STYLE + CHI SONO::::::::::::::::::::::::::::::::::::::: */
+/* ::::::::::::::::::::::::::::::::::::::: STYLE ::::::::::::::::::::::::::::::::::::::: */
 
 .cont_style {
     
@@ -196,7 +212,6 @@
     width: 100%;
     height: auto;
     text-align: left;
-    text-transform: lowercase;
     margin: 0;
     padding-right: 10%;
     padding-left: 10%;
@@ -207,9 +222,10 @@
 
 .cont_style h1{
     
-    font-size: 1.35em;
+    font-size: 1.4em;
     text-align: left;
     color: #00bfa5;
+    text-align: center;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -304,11 +320,10 @@ html,body
     height: 3em;
     position: fixed;
     top: 0px;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding-top: 2%;
+    padding-left: 4%;
     
 }
-
 
 #button_menu {
     
@@ -316,23 +331,17 @@ html,body
     border: none;
     border-bottom-style: none;
     color: white;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
-#menu_top {
-    
-    height: 3.43em;
-    padding-top: 5%;
-    padding-left: 5%;
-    
-}
 
 #menu_smartphone {
     
     height: 100%;  
-    width: 11em;
+    width: 10.5em;
     max-width: 15em;
     position:fixed;
+    font-size: 1.2em;
     top:0;
     bottom:0;
     left:-35.6em;
