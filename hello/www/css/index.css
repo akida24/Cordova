@@ -129,6 +129,21 @@
     margin: 0;
     
 }
+/*
+ * prova modifica cambio icona (accordion)
+li pippo:before {
+    font-family: 'FontAwesome'; 
+    content: "\f138";        
+    color: #303030;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+li.active pippo:before {
+    content: "\f13a";   
+}
+*/
+
 
 /* ::::::::::::::::::::::::::::::::::::::: PROMO ::::::::::::::::::::::::::::::::::::::: */
 
