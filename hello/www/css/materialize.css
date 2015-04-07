@@ -2362,7 +2362,7 @@ span.badge {
     height: 100%; }
 
 .progress {
-  position: relative;
+  position: fixed;
   height: 4px;
   display: block;
   width: 100%;
@@ -5408,9 +5408,10 @@ small {
   background-color: #fff; }
 
 .card {
-  position: relative;
+  position: fixed;
   overflow: hidden;
-  margin: 0.5rem 0 1rem 0;
+    margin-left: 22%;
+    margin-top: 35%;
   background-color: #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5426,7 +5427,7 @@ small {
     .card .card-title.activator {
       cursor: pointer; }
   .card a {
-    color: #ffab40;
+    color: #4db6ac;
     margin-right: 20px;
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
@@ -5435,7 +5436,7 @@ small {
     transition: color 0.3s ease;
     text-transform: uppercase; }
     .card a:hover {
-      color: #ffd8a6; }
+      color: #b2dfdb; }
   .card.small, .card.medium, .card.large {
     position: relative; }
     .card.small .card-image, .card.medium .card-image, .card.large .card-image {
@@ -5998,9 +5999,9 @@ a.waves-effect .waves-ripple {
     line-height: 3rem;
     display: block;
     float: left;
-    text-align: center;
+    text-align: left;
     margin-right: 1rem;
-    padding-right: 20%;
+    padding-right: 8%;
     padding-left: 5%;
   }
 
@@ -6013,7 +6014,7 @@ a.waves-effect .waves-ripple {
   box-sizing: border-box; }
   .collapsible-body p{
     margin: 0;
-      text-align: left;
+    text-align: left;
     padding: 2rem; }
 
 ul.side-nav ul.collapsible {
@@ -6850,8 +6851,9 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
  *      SHRINK_TIME = 400ms
  */
 .preloader-wrapper {
-  display: inline-block;
-  position: relative;
+  position: fixed;
+    margin-left: 32%;
+    margin-top: 10%;
   width: 48px;
   height: 48px; }
   .preloader-wrapper.small {
@@ -6885,6 +6887,9 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
 
 .spinner-blue, .spinner-blue-only {
   border-color: #4285f4; }
+
+.spinner-twistar {
+    border-color: #00796b;}
 
 .spinner-red, .spinner-red-only {
   border-color: #db4437; }
@@ -6923,12 +6928,17 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
+.active .spinner-layer.spinner-twistar {
+  /* durations: 4 * ARCTIME */
+  -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
+
 .active .spinner-layer.spinner-green {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.active .spinner-layer.spinner-blue-only, .active .spinner-layer.spinner-red-only, .active .spinner-layer.spinner-yellow-only, .active .spinner-layer.spinner-green-only {
+.active .spinner-layer.spinner-blue-only, .active .spinner-layer.spinner-red-only, .active .spinner-layer.spinner-yellow-only, .active .spinner-layer.spinner-green-only, .active .spinner-layer.spinner-twistar {
   /* durations: 4 * ARCTIME */
   -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
   filter: "alpha(opacity=(${iefactor}))";
@@ -7167,7 +7177,7 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
     width: 200%;
     box-sizing: border-box;
     height: 100%;
-    border-width: 3px;
+    border-width: 4px;
     /* STROKEWIDTH */
     border-style: solid;
     border-color: inherit;
