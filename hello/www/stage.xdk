@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1427495159916,
+      "lastModifiedDate": 1428439089052,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -34,13 +34,6 @@
         "paramvals": {}
       },
       {
-        "id": "org.apache.cordova.geolocation",
-        "version": "0.3.11",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {}
-      },
-      {
         "id": "com.phonegap.plugins.twitter",
         "selectedState": "Included",
         "data": {},
@@ -54,17 +47,17 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "2.3",
-          "android-targetSdkVersion": "",
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "4",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
         "isActive_": true,
         "appName_": "Angelo Giordano Hair",
-        "appID_": "not.yet.specified",
+        "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [
           {
-            "origin": "*"
+            "origin": "*twitter.com"
           }
         ],
         "icons_": [
@@ -95,21 +88,42 @@
         ],
         "splashes_": [
           {
-            "relPath": "img/sfondobis.jpg",
+            "relPath": "img/Icon/LDPI.jpg",
             "density": "ldpi",
-            "height": 320,
-            "width": 426,
-            "orientation": "landscape"
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/MDPI.jpg",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/HDPI.jpg",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/XHDPI.jpg",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
           }
         ],
-        "addlPermissions_": "",
+        "addlPermissions_": "internet",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
-        "appAuthor_": "Twistar",
-        "appDescription_": ""
+        "appAuthor_": "Twistar | Creative Multimedia Design",
+        "appDescription_": "Un punto di riferimento per i capelli ed il benessere a Tortona (AL) "
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -142,16 +156,16 @@
         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "5.1.1",
-          "ios-configuration": "adhoc",
+          "ios-target": "6",
+          "ios-configuration": "production",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "Angelo Giordano Hair",
-        "appID_": "not.yet.specified",
+        "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [
           {
-            "origin": "*"
+            "origin": "*twitter.com"
           }
         ],
         "icons_": [],
@@ -161,8 +175,8 @@
         "appVersion_": "0.0.1",
         "cordovaCLIVersion_": "4.1.2",
         "iosProvs_": [],
-        "appDescription_": "",
-        "appAuthor_": "Twistar",
+        "appDescription_": "Un punto di riferimento per i capelli ed il benessere a Tortona (AL) ",
+        "appAuthor_": "Twistar | Creative Multimedia Design",
         "appVersionCode_": ""
       },
       "Windows8": {

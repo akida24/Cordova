@@ -5411,10 +5411,9 @@ small {
 .card {
   position: fixed;
     overflow: hidden;
-    margin-top:45%;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
+    margin-top:40%;
+    left: 30%;
+    right: 30%;
     background-color: #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6855,7 +6854,7 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
  */
 .preloader-wrapper {
   position: fixed;
-    margin-left: 32%;
+    margin-left: 42%;
     margin-top: 10%;
   width: 48px;
   height: 48px; }
@@ -7159,7 +7158,7 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
   position: absolute;
   box-sizing: border-box;
   top: 0;
-  left: 45%;
+  left: 50%;
   width: 10%;
   height: 100%;
   overflow: hidden;
