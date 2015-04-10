@@ -40,18 +40,6 @@ app.initialize();
 
 
 
-$(function(){
-
-  $('.bxslider').bxSlider({     //oggetto anonimo { } a cui imposti determinate proprietà
-  infiniteLoop: false,
-  hideControlOnEnd: true
-  });
-    
-});
-
-
-    
-
 /*
 // Touch start functionality for the buttons
 function touchstarthandler(event)

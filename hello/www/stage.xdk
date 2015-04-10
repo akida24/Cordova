@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1428439089052,
+      "lastModifiedDate": 1428699070036,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -48,7 +48,7 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "4",
+          "android-targetSdkVersion": "10",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
@@ -130,26 +130,29 @@
         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "2.3",
-          "android-targetSdkVersion": "",
-          "android-installLocation": "auto"
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "17",
+          "android-installLocation": "auto",
+          "Orientation": "portrait"
         },
         "isActive_": false,
-        "appName_": "stage",
-        "appID_": "not.yet.specified",
+        "appName_": "Angelo Giordano Hair",
+        "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [
           {
-            "origin": "*"
+            "origin": "*twitter.com"
           }
         ],
         "icons_": [],
         "splashes_": [],
-        "addlPermissions_": "",
+        "addlPermissions_": "internet",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "10",
-        "cordovaCLIVersion_": "4.1.2"
+        "cordovaCLIVersion_": "4.1.2",
+        "appDescription_": "Un punto di riferimento per i capelli ed il benessere a Tortona (AL) ",
+        "appAuthor_": "Twistar | Creative Multimedia Design"
       },
       "iOS": {
         "platform_": "ios",
