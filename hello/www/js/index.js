@@ -39,8 +39,6 @@ var app = {
 app.initialize();
 
 
-
-/*
 // Touch start functionality for the buttons
 function touchstarthandler(event)
 {
@@ -53,4 +51,4 @@ function touchendhandler(event)
 {
     var button= event.target;
     button.className ="";
-}*/
+}

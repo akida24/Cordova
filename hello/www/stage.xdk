@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1428699070036,
+      "lastModifiedDate": 1428773449308,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -20,24 +20,31 @@
     "libraries": [],
     "cordovaPlugins": [
       {
-        "id": "org.apache.cordova.device",
-        "version": "0.2.13",
-        "selectedState": "Auto",
+        "id": "com.phonegap.plugins.twitter",
+        "selectedState": "Included",
         "data": {},
-        "paramvals": {}
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
       },
       {
         "id": "org.apache.cordova.splashscreen",
         "version": "0.3.5",
-        "selectedState": "Auto",
+        "selectedState": "Excluded",
         "data": {},
-        "paramvals": {}
+        "paramvals": {},
+        "checksum": "d99a3c0717d8b44b39c4a7c580caacf16569b02e8cb9a31e1ee778a97e9435d3",
+        "dependsOn": [],
+        "dependedBy": []
       },
       {
-        "id": "com.phonegap.plugins.twitter",
+        "id": "org.apache.cordova.device",
+        "version": "0.2.13",
         "selectedState": "Included",
         "data": {},
-        "paramvals": {}
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
       }
     ],
     "serviceMethods": [],
@@ -47,8 +54,8 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "10",
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "18",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
@@ -116,10 +123,10 @@
             "orientation": "portrait"
           }
         ],
-        "addlPermissions_": "internet",
+        "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
+        "appVersion_": "0.0.2",
+        "appVersionCode_": "02",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",
@@ -130,12 +137,12 @@
         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "17",
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "18",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "Angelo Giordano Hair",
         "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [
@@ -145,7 +152,7 @@
         ],
         "icons_": [],
         "splashes_": [],
-        "addlPermissions_": "internet",
+        "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE",
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
@@ -201,6 +208,82 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
         "cordovaCLIVersion_": "4.1.2"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "stage",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "stage",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "stage",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "stage",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
       }
     }
   }
