@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1428773449308,
+      "lastModifiedDate": 1428835451307,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -45,6 +45,15 @@
         "paramvals": {},
         "dependsOn": [],
         "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.inappbrowser",
+        "version": "0.5.4",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
       }
     ],
     "serviceMethods": [],
@@ -55,7 +64,7 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "18",
+          "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
@@ -64,7 +73,7 @@
         "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [
           {
-            "origin": "*twitter.com"
+            "origin": "*"
           }
         ],
         "icons_": [
@@ -123,10 +132,10 @@
             "orientation": "portrait"
           }
         ],
-        "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE",
+        "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.2",
-        "appVersionCode_": "02",
+        "appVersion_": "0.0.5",
+        "appVersionCode_": "60002",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",
@@ -137,12 +146,12 @@
         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "14",
+          "android-minSdkVersion": "10",
           "android-targetSdkVersion": "18",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "Angelo Giordano Hair",
         "appID_": "it.twistar.angelogiordanohair",
         "appAccess_": [

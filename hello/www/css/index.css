@@ -28,22 +28,22 @@
     
     
     @font-face {
-  font-family: "Open Sans";
+  font-family: "Open Sans Italic";
   src: url("../font/open_sans/OpenSans-LightItalic.ttf");
   font-weight: 300; }
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("../font/open_sans/OpenSans-RegularItalic.ttf");
+  font-family: "Open Sans Italic";
+  src: url("../font/open_sans/OpenSans-Italic.ttf");
   font-weight: 400; }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Open Sans Italic";
   src: url("../font/open_sans/OpenSans-SemiboldItalic.ttf");
   font-weight: 500; }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Open Sans Italic";
   src: url("../font/open_sans/OpenSans-BoldItalic.ttf");
   font-weight: 700; }
     
@@ -149,7 +149,7 @@
 blockquote {
     
     margin-top: 1%;
-    
+    font-family: "Open Sans Italic";
     font-style: italic;
     
     
@@ -157,16 +157,27 @@ blockquote {
 
 blockquote::before{
     
-  content: "\201C"; 
-  font-family: "Open Sans";
-  font-size: 60px;
-  font-weight: bold;
-  color: #999;
-  position: relative;
-  top: 10px;
+    content: "\201C"; 
+    font-family: "Open Sans Italic";
+    font-size: 50px;
+    font-weight: bold;
+    color: #999;
+    position: relative;
+    top: 15px;
 }
 
 
+
+blockquote::after{
+    
+    content: "\201D"; 
+    font-family: "Open Sans Italic";
+    font-size: 45px;
+    font-weight: bold;
+    color: #999;
+    position: relative;
+    top: 15px;
+}
 
 
 
@@ -449,7 +460,7 @@ html,body
     width: 10.5em;
     max-width: 15em;
     position:fixed;
-    font-size: 1.2em;
+    font-size: 1.15em;
     top:0;
     bottom:0;
     left:-35.6em;

@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <meta charset="utf-8" />
+      <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no height=device-height, target-densitydpi=device-dpi">
-        
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/materialize.css"/>
-
-        <script type="text/javascript" src="cordova.js"></script>
+      
+        <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIPV92qFMv7Zvv9LCyj7aLAT8pyEwlXTc"></script>
         <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-        <script src="js/materialize.js" ></script>
       
        <script type="text/javascript">
            function detectBrowser() {
@@ -140,11 +139,13 @@
             </div>
       
        <div id="map-"></div>
-        <a href="https://www.google.it/maps/place/Giordano+Angelo/@44.89808,8.86517,17z/data=!4m5!1m2!2m1!1sangelo+giordano+hair+!3m1!1s0x47876bcab739ad07:0xf49293a9aecda8b3">
-        <p id="info"> <i id="apri_mappa" class="fa fa-chevron-right"></i> Via Lorenzo Perosi, 8 - 15057 Tortona (AL)</p></a> <p id="info"> +39 0131 862723 / +39 335 8105194</p>
+       <!-- <a href="https://www.google.it/maps/place/Giordano+Angelo/@44.89808,8.86517,17z/data=!4m5!1m2!2m1!1sangelo+giordano+hair+!3m1!1s0x47876bcab739ad07:0xf49293a9aecda8b3">
+        <p id="info"> <i id="apri_mappa" class="fa fa-chevron-right"></i> Via Lorenzo Perosi, 8 - 15057 Tortona (AL)</p></a> <p id="info"> +39 0131 862723 / +39 335 8105194</p> -->
+      
+        <a href="geo:44.89808,-8.86517"><p id="info"> <i id="apri_mappa" class="fa fa-chevron-right"></i> Via Lorenzo Perosi, 8 - 15057 Tortona (AL)</p></a> <p id="info"> +39 0131 862723 / +39 335 8105194</p></a>
         <p id="email"> info@angelogiordanohair.it </p>
         <a href="http://www.angelogiordanohair.it"><p id="web"> http://www.angelogiordanohair.it/</p></a>
-        <p id="social"> <a href="https://www.facebook.com/angelogiordanohair"> <i class="fa fa-facebook fa-fw"></i></a> <a href="https://twitter.com/GiordanoHair/"><i class="fa fa-twitter fa-fw"></i></a> <a href="https://www.pinterest.com/angelogiordano/"><i class="fa fa-pinterest-p fa-fw"></i></a> <a href="https://instagram.com/angelogiordanohair/"><i class="fa fa-instagram"></i></a> </p>
+        <p id="social"> <a href="https://www.facebook.com/angelogiordanohair"> <i class="fa fa-facebook fa-fw"></i></a> <a href="https://twitter.com/GiordanoHair/"><i class="fa fa-twitter fa-fw"></i></a> <a href="https://www.pinterest.com/angelogiordano/" ><i class="fa fa-pinterest-p fa-fw"></i></a> <a href="https://instagram.com/angelogiordanohair/"><i class="fa fa-instagram"></i></a> </p>
       
             <script src="js/materialize.js" ></script>      
             <script type="text/javascript" src="cordova.js"></script>
