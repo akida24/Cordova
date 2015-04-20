@@ -2578,8 +2578,8 @@ $(document).ready(function(){
     var defaults = {
       indicators: true,
       height: 400,
-      transition: 400,
-      interval: 600000
+      transition: 500,
+      interval: 60000
     }
     options = $.extend(defaults, options);
 
@@ -2645,7 +2645,7 @@ $(document).ready(function(){
       }
 
       // Set height of slider
-      if (options.height != 400){
+      if (options.height != 400) {
         $this.height(options.height + 40);
         $slider.height(options.height);
       }
@@ -2830,6 +2830,7 @@ $(document).ready(function(){
       });
 
     });
+
 
 
   };

@@ -34,9 +34,12 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    
+  
 };
 
 app.initialize();
+
 
 
 // Touch start functionality for the buttons

@@ -65,7 +65,7 @@
     
     background: url("../img/Sfondo_trasp.png") no-repeat scroll;
     position: relative;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: "Open Sans";
     width: 100%; 
     height: auto;
@@ -115,6 +115,8 @@
     margin-top: 2rem;
     width: 60%;
 }
+
+
 
 /* :::::::::::::::::::::::::::::::::::::::::::: CHI SONO :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
@@ -209,20 +211,6 @@ blockquote::after{
     margin: 0;
     
 }
-/*
- * prova modifica cambio icona (accordion)
-li pippo:before {
-    font-family: 'FontAwesome'; 
-    content: "\f138";        
-    color: #303030;
-    font-size: 12px;
-    margin-right: 10px;
-}
-
-li.active pippo:before {
-    content: "\f13a";   
-}
-*/
 
 
 /* ::::::::::::::::::::::::::::::::::::::: PROMO ::::::::::::::::::::::::::::::::::::::: */
@@ -388,15 +376,6 @@ li.active pippo:before {
     
 }
 
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-.event.received {
-    background-color:#00695c;
-    display:none;
-}
 
 @keyframes fade {
     from { opacity: 1.0; }
@@ -425,14 +404,22 @@ html,body
   margin:0px;
 }
 
+
+@media screen and (max-device-width: 400px) {
+    #menu_smartphone ul li: hover{
+        
+        background-color: red;
+    }
+}
 #top {
     
     height: 3em;
     position: fixed;
+    text-align: left;
     top: 5px;
+    /* width: 50%; */
     padding-top: 2%;
     padding-left: 4%;
-    
 }
 
 #button_menu {
@@ -553,20 +540,20 @@ html,body
 #apertura{
     
     margin-bottom: 2%;
-    font-size: 1.4em;
+    font-size: 1.25em;
     color: #00bfa5 ;
 }
 
 #info {
     
     color: white;
-    font-size: 1.25em;
+    font-size: 1.2em;
     
 }
 
 #email {
     
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: #00796b;
     
 }
@@ -581,7 +568,7 @@ html,body
 
 #web {
     
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: #00796b;
 }
 

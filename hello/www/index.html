@@ -11,26 +11,69 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/materialize.css"/>
 
-        <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
         <script src="js/materialize.js" ></script>
 
         
         <title>Angelo Giordano Hair</title>
-    </head>
     
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/materialize.js" ></script>
     
-    <body class="home blue-grey darken-4"> 
+        <script type="text/javascript">
+       /* function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        // device APIs are available
+        //
+        function onDeviceReady() {
+            // Register the event listener
+            document.addEventListener("backbutton", onBackKeyDown, false);
+        }
+
+        // Handle the back button
+        //
+        function onBackKeyDown() {
+            
+            document.getElementById.("p2").style.color = "red";
+            
+        }*/
+            
+            
+            
+            
+            $(document).ready(function(){
+                
+                function onDeviceReady() {
+                    document.addEventListener("backbutton", onBackKeyDown, false); //Listen to the User clicking on the back button
+                }
+
+                function onBackKeyDown(e) {
+                    e.preventDefault();
+                    navigator.notification.confirm("Are you sure you want to exit ?", onConfirm, "Confirmation", "Yes,No"); 
+                    // Prompt the user with the choice
+                }
+
+                function onConfirm(button) {
+                    if(button==2){//If User selected No, then we just do nothing
+                        return;
+                    }else{
+                        navigator.app.exitApp();// Otherwise we quit the app.
+                    }
+                }
+            }
+
+     </script>
+     </head>
+     <body class="home blue-grey darken-4" onload="onLoad()"> 
         
             <img class="logo" />
-              <div id="deviceready" >
+              <div>
                    
                    <a id="news" class="waves-effect waves-light btn blink menu_btn" href="social.html">Novità!</a>
+                  <p id="p2">Hello World!</p>
              </div> 
         
+       
         
         
         <script type="text/javascript" >
@@ -78,7 +121,10 @@
                     
 
           <div class="blue-grey darken-3" style="position:relative">
-              <div id="top"><button id="button_menu" class="waves-effect waves-light menu_btn"><i class="fa fa-bars fa-fw"></i></button></div>
+
+              <div id="top">
+                  <button id="button_menu" class="waves-effect waves-light menu_btn"><i id="menu_icona" class="fa fa-bars fa-fw"></i></button>
+                </div>
             </div>
 
             <div id="grey_back">&nbsp;</div>
@@ -99,7 +145,7 @@
               </div>  
 
          </div>
-            
-      <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="intelxdk.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
   </body>
 </html>
