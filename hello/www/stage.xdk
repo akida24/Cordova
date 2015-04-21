@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1429572067258,
+      "lastModifiedDate": 1429622753923,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -63,7 +63,7 @@
         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "14",
+          "android-minSdkVersion": "15",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto",
           "Orientation": "portrait"
@@ -134,8 +134,8 @@
         ],
         "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.7",
-        "appVersionCode_": "60004",
+        "appVersion_": "0.0.9",
+        "appVersionCode_": "60006",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",
