@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1429570130759,
+      "lastModifiedDate": 1429572067258,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -104,28 +104,28 @@
         ],
         "splashes_": [
           {
-            "relPath": "img/Icon/LDPI.jpg",
+            "relPath": "img/Icon/launchscreen.jpg",
             "density": "ldpi",
             "height": 426,
             "width": 320,
             "orientation": "portrait"
           },
           {
-            "relPath": "img/Icon/MDPI.jpg",
+            "relPath": "img/Icon/launchscreenM.jpg",
             "density": "mdpi",
             "height": 470,
             "width": 320,
             "orientation": "portrait"
           },
           {
-            "relPath": "img/Icon/HDPI.jpg",
+            "relPath": "img/Icon/launchscreenH.jpg",
             "density": "hdpi",
             "height": 640,
             "width": 480,
             "orientation": "portrait"
           },
           {
-            "relPath": "img/Icon/XHDPI.jpg",
+            "relPath": "img/Icon/launchscreenX.jpg",
             "density": "xhdpi",
             "height": 960,
             "width": 720,
@@ -134,7 +134,7 @@
         ],
         "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.6",
+        "appVersion_": "0.0.7",
         "appVersionCode_": "60004",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",

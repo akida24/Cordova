@@ -405,12 +405,6 @@ html,body
 }
 
 
-@media screen and (max-device-width: 400px) {
-    #menu_smartphone ul li: hover{
-        
-        background-color: red;
-    }
-}
 #top {
     
     height: 3em;
@@ -479,6 +473,12 @@ html,body
     padding-bottom: 10%;
     
     text-align: left;
+}
+
+#menu_smartphone ul li button:hover {
+
+    background-color:#a7ffeb;
+
 }
 
 #menu_smartphone ul li button a:link, a:visited a:link:active, a:visited:active {
@@ -621,6 +621,11 @@ html,body
     padding-left: 10%;
     padding-right: 10%;
     width: auto;
+}
+
+.btn_flat:hover{
+
+    color:#00796b;
 }
 
    
