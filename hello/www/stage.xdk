@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1429622753923,
+      "lastModifiedDate": 1429738937332,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -64,7 +64,7 @@
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "15",
-          "android-targetSdkVersion": "19",
+          "android-targetSdkVersion": "18",
           "android-installLocation": "auto",
           "Orientation": "portrait"
         },
@@ -78,25 +78,25 @@
         ],
         "icons_": [
           {
-            "relPath": "icon_launcher/res/web_hi_res_ldpi.png",
+            "relPath": "img/Icon/Android Icon/36.png",
             "density": "ldpi",
             "height": 36,
             "width": 36
           },
           {
-            "relPath": "icon_launcher/res/mipmap-mdpi/ic_launcher.png",
+            "relPath": "img/Icon/Android Icon/48.png",
             "density": "mdpi",
             "height": 48,
             "width": 48
           },
           {
-            "relPath": "icon_launcher/res/mipmap-hdpi/ic_launcher.png",
+            "relPath": "img/Icon/Android Icon/72.png",
             "density": "hdpi",
             "height": 72,
             "width": 72
           },
           {
-            "relPath": "icon_launcher/res/mipmap-xhdpi/ic_launcher.png",
+            "relPath": "img/Icon/Android Icon/96.png",
             "density": "xhdpi",
             "height": 96,
             "width": 96
@@ -134,8 +134,8 @@
         ],
         "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.9",
-        "appVersionCode_": "60006",
+        "appVersion_": "0.1.0",
+        "appVersionCode_": "60009",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",

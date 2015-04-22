@@ -95,7 +95,7 @@
     
     content: url("../img/logo.png"); 
     position: static;
-    margin-top: 12%;
+    margin-top: 8%;
     margin-bottom:2%;
     margin-left: 2%;
     width: 80%%;
@@ -412,7 +412,6 @@ html,body
     text-align: left;
     top: 5px;
     /* width: 50%; */
-    padding-top: 2%;
     padding-left: 4%;
 }
 
@@ -422,15 +421,17 @@ html,body
     border: none;
     border-bottom-style: none;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 5%;
 }
 
 #button_menu:hover{
     
     color:#00bfa5;
+    background-color: transparent;
 
 }
+
 
 #top_twitter{
     
@@ -445,10 +446,10 @@ html,body
 #menu_smartphone {
     
     height: 100%;  
-    width: 10.5rem;
+    width: 11.5rem;
     max-width: 15rem;
     position:fixed;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     top:0;
     bottom:0;
     left:-35.6rem;
