@@ -97,6 +97,36 @@
                 }
             });
         });
+          
+          
+          //chiusura app
+           function onLoad(){
+                  document.addEventListener("deviceready", onDeviceReady, true);
+            };
+
+           
+            function closeFunction() {
+                navigator.notification.confirm(
+                    "Vuoi veramente chiudere l'app?", 
+                    function(buttonIndex){
+                        ConfirmExit(buttonIndex);
+                    }, 
+                    "Confirmation", 
+                    "Si,No"
+                ); 
+                
+            };
+ 
+            function ConfirmExit(stat){
+               if(stat == "1"){
+                    navigator.app.exitApp();
+                }else{
+                    return;
+                };
+            };
+          
+          
+          
             </script>
 
 
@@ -119,6 +149,7 @@
                     <li><a href="style.html"><button><i class="fa fa-heart"></i>Moda</button></a></li>
                     <li><a href="social.html"><button><i class="fa fa-twitter fa-fw"></i>Twitter</button></a></li>
                     <li><a href="contatti.html"><button><i class="fa fa-map-marker fa-fw"></i>Contatti</button></a></li>
+                    <li><a href="#"><button onclick="closeFunction()"><i class="fa fa-sign-out"></i>Esci</button></a></li>
 
                 </ul>
               </div> 
