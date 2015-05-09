@@ -123,13 +123,15 @@
             });
         });
             
-            
             //chiusura app
-             function onLoad(){
-                  document.addEventListener("deviceready", onDeviceReady, true);
+          
+            document.addEventListener("deviceready", onDeviceReady, true);
+                        
+            function onDeviceReady(){
+              /*  document.addEventListener("backbutton", function(e){
+                    exitAppPopup();*/
             };
 
-           
             function closeFunction() {
                 navigator.notification.confirm(
                     "Vuoi veramente chiudere l'app?", 
@@ -137,12 +139,13 @@
                         ConfirmExit(buttonIndex);
                     }, 
                     "Confirmation", 
-                    "Si,No"
+                    ["Si","No"]
                 ); 
                 
             };
  
             function ConfirmExit(stat){
+
                if(stat == "1"){
                     navigator.app.exitApp();
                 }else{
@@ -150,6 +153,7 @@
                 };
             };
             
+         </script>
             
             </script>
 
@@ -179,5 +183,7 @@
 
     
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="intelxdk.js"></script>
+
     </body>
 </html>

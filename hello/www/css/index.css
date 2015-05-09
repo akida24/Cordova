@@ -69,7 +69,7 @@
     font-family: "Open Sans";
     width: 100%; 
     height: auto;
-    top: 2rem;
+    /*top: 2rem;*/
     text-align: center;
     background-size: 110%;
     overflow: auto;
@@ -422,7 +422,7 @@ html,body
     border-bottom-style: none;
     color: white;
     font-size: 2.5rem;
-    padding: 5%;
+    padding: 3%;
 }
 
 #button_menu:hover{
@@ -458,7 +458,8 @@ html,body
 
 } 
 
-#menu_smartphone ul {
+
+#nav_ ul {
     
     margin:0;
     padding: 0;
@@ -467,7 +468,9 @@ html,body
 } 
 
 
-#menu_smartphone ul li button {
+#nav_ ul li button {
+
+/*menu_smartphone ul li button {*/
         
     
     width: 100%;
@@ -476,26 +479,28 @@ html,body
     background-color: transparent;
     position: static;
     color: white;
-    padding-left:  10%;
+    padding-left: 5%;
     padding-top: 8%;
     padding-bottom: 10%;
     
     text-align: left;
 }
 
-#menu_smartphone ul li button:hover {
+/*#nav_ ul li button:hover {
 
     background-color:#80cbc4;
 
 }
-
-#menu_smartphone ul li button a:link, a:visited a:link:active, a:visited:active {
+*/
+#nav_ ul li button a:link, a:visited a:link:active, a:visited:active {
     
     color: white;
 }
 
 
-#menu_smartphone ul li i{
+#nav_ ul li i{
+
+/*menu_smartphone ul li i{*/
     
     float: left;
     color: white;

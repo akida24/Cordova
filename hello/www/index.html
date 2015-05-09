@@ -12,13 +12,14 @@
         <link rel="stylesheet" type="text/css" href="css/materialize.css"/>
 
         <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+
         <script src="js/materialize.js" ></script>
 
         
         <title>Angelo Giordano Hair</title>
     
      </head>
-     <body class="home blue-grey darken-4"> 
+     <body class="home blue-grey darken-4" > 
         
             <img class="logo" />
               <div>
@@ -27,7 +28,9 @@
         
         <script type="text/javascript" >
             
-            $(document).ready(function(){
+            //menu
+            
+        /*    $(document).ready(function(){
            
             var isMenuOpen = false;
 
@@ -63,14 +66,19 @@
                     isMenuOpen = false;
                 }
             });
-        });
+                
+                
+        });*/
             
             
             //chiusura app
-            function onLoad()
-            {
-                  document.addEventListener("deviceready", onDeviceReady, true);
-            }
+          
+            document.addEventListener("deviceready", onDeviceReady, true);
+                        
+            function onDeviceReady(){
+              /*  document.addEventListener("backbutton", function(e){
+                    exitAppPopup();*/
+            };
 
             function closeFunction() {
                 navigator.notification.confirm(
@@ -79,12 +87,13 @@
                         ConfirmExit(buttonIndex);
                     }, 
                     "Confirmation", 
-                    "Si,No"
+                    ["Si","No"]
                 ); 
                 
             };
  
             function ConfirmExit(stat){
+
                if(stat == "1"){
                     navigator.app.exitApp();
                 }else{
@@ -94,7 +103,38 @@
             
          </script>
          
- 
+         
+             <nav id="nav_">
+                  <ul id="slide-out" class="teal accent-4 side-nav">
+                    <li ><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
+                    <li ><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
+                    <li ><a href="service.html"><button><i class="fa fa-scissors fa-fw"></i>Servizi</button></a></li>
+                    <li ><a href="gallery.html"><button><i class="fa fa-picture-o"></i>Galleria</button></a></li>
+                    <li ><a href="prodotti.html"><button><i class="fa fa-flask fa-fw"></i>Prodotti</button></a></li>
+                    <li ><a href="promo.html"><button><i class="fa fa-credit-card"></i>Card</button></a></li>
+                    <li ><a href="style.html"><button><i class="fa fa-heart"></i>Moda</button></a></li>
+                    <li ><a href="social.html"><button><i class="fa fa-twitter fa-fw"></i>Twitter</button></a></li>
+                    <li ><a href="contatti.html"><button><i class="fa fa-map-marker fa-fw"></i>Contatti</button></a></li>
+                    <li ><a href="#"><button onclick="closeFunction()"><i class="fa fa-sign-out"></i>Esci</button></a></li>
+                  </ul>
+                  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+             </nav>
+           
+        
+         <script>
+            
+              $('.button-collapse').sideNav({
+                  menuWidth: 180, // Default is 240
+                  edge: 'left', // Choose the horizontal origin
+                  closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                }
+              );
+
+             
+                      
+         </script>
+         
+        <!--
 
           <div class="blue-grey darken-3" style="position:relative">
 
@@ -105,7 +145,7 @@
 
             <div id="grey_back">&nbsp;</div>
         
-            <div id="menu_smartphone" class="teal accent-4" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
+            <div id="menu_smartphone" class="teal accent-4" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss 
             <ul>
                 <li><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
                 <li><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
@@ -121,9 +161,10 @@
                 </ul>
               </div>  
 
-         </div>
+         </div> -->
     
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="intelxdk.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

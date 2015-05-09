@@ -5057,15 +5057,18 @@ span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
-  width: 100%;
+  background-color: transparent;
+    position: absolute;
+  width: 10%;
   height: 56px;
-  line-height: 56px;
+    top: 1%;
+    margin-left: 4%;
+  /*line-height: 56px;*/
   overflow: hidden; }
   nav a {
-    color: #fff; }
+    color: transparent; }
   nav .nav-wrapper {
-    position: relative;
+    position: fixed;
     height: 100%; }
     nav .nav-wrapper i {
       font-size: 2rem; }
@@ -5124,8 +5127,8 @@ nav {
     nav ul a {
       font-size: 1rem;
       color: #fff;
-      display: inline-block;
-      padding: 0px 15px; }
+      /*display: inline-block;
+      padding: 0px 15px;*/ }
     nav ul.left {
       float: left; }
   nav .input-field {
@@ -6766,12 +6769,13 @@ ul.table-of-contents a {
 
 ul.side-nav {
   position: fixed;
+overflow-y: auto;
   width: 240px;
   left: -105%;
   top: 0;
   margin: 0;
   height: 100%;
-  height: calc(100% + 60px);
+ /* height: calc(100% + 60px);*/
   padding-bottom: 60px;
   background-color: #FFF;
   z-index: 999;

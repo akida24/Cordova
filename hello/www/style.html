@@ -77,11 +77,14 @@ I ramati sono naturalissimi e i bruni e i neri pieni ma mai finti.</p></div>
             
             
             //chiusura app
-             function onLoad(){
-                  document.addEventListener("deviceready", onDeviceReady, true);
+          
+            document.addEventListener("deviceready", onDeviceReady, true);
+                        
+            function onDeviceReady(){
+              /*  document.addEventListener("backbutton", function(e){
+                    exitAppPopup();*/
             };
 
-           
             function closeFunction() {
                 navigator.notification.confirm(
                     "Vuoi veramente chiudere l'app?", 
@@ -89,12 +92,13 @@ I ramati sono naturalissimi e i bruni e i neri pieni ma mai finti.</p></div>
                         ConfirmExit(buttonIndex);
                     }, 
                     "Confirmation", 
-                    "Si,No"
+                    ["Si","No"]
                 ); 
                 
             };
  
             function ConfirmExit(stat){
+
                if(stat == "1"){
                     navigator.app.exitApp();
                 }else{
@@ -102,6 +106,7 @@ I ramati sono naturalissimi e i bruni e i neri pieni ma mai finti.</p></div>
                 };
             };
             
+         </script>
             
             </script>
 
@@ -131,6 +136,8 @@ I ramati sono naturalissimi e i bruni e i neri pieni ma mai finti.</p></div>
          </div>
     
     
-        <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="intelxdk.js"></script>
+        
     </body>
 </html>

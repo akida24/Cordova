@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1429813774813,
+      "lastModifiedDate": 1430684630935,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -20,24 +20,6 @@
     "libraries": [],
     "cordovaPlugins": [
       {
-        "id": "com.phonegap.plugins.twitter",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "0.3.5",
-        "selectedState": "Excluded",
-        "data": {},
-        "paramvals": {},
-        "checksum": "d99a3c0717d8b44b39c4a7c580caacf16569b02e8cb9a31e1ee778a97e9435d3",
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
         "id": "org.apache.cordova.device",
         "version": "0.2.13",
         "selectedState": "Included",
@@ -49,6 +31,24 @@
       {
         "id": "org.apache.cordova.inappbrowser",
         "version": "0.5.4",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.dialogs",
+        "version": "0.2.11",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "0.3.5",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
@@ -134,8 +134,8 @@
         ],
         "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.1.1",
-        "appVersionCode_": "60010",
+        "appVersion_": "0.1.4",
+        "appVersionCode_": "60013",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",
@@ -176,15 +176,16 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "6",
-          "ios-configuration": "production",
-          "Orientation": "portrait"
+          "ios-configuration": "adhoc",
+          "Orientation": "portrait",
+          "exit-on-suspend": true
         },
-        "isActive_": false,
+        "isActive_": true,
         "appName_": "Angelo Giordano Hair",
-        "appID_": "it.twistar.angelogiordanohair",
+        "appID_": "com.twistar.angelogiordanohair",
         "appAccess_": [
           {
-            "origin": "*twitter.com"
+            "origin": "*"
           }
         ],
         "icons_": [],
@@ -193,10 +194,15 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "cordovaCLIVersion_": "4.1.2",
-        "iosProvs_": [],
+        "iosProvs_": [
+          {
+            "relPath": "TwistarDevelopment.mobileprovision",
+            "type": "adhoc"
+          }
+        ],
         "appDescription_": "Un punto di riferimento per i capelli ed il benessere a Tortona (AL) ",
         "appAuthor_": "Twistar | Creative Multimedia Design",
-        "appVersionCode_": ""
+        "appVersionCode_": "1.0"
       },
       "Windows8": {
         "platform_": "windows8",
