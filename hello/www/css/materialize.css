@@ -1815,7 +1815,9 @@ button, input, optgroup, select, textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+    
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
@@ -5175,7 +5177,7 @@ nav {
 @media only screen and (min-width : 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
-    line-height: 64px; }
+    /*line-height: 64px;*/ }
 
   .navbar-fixed {
     height: 64px; }
@@ -6775,7 +6777,7 @@ overflow-y: auto;
   top: 0;
   margin: 0;
   height: 100%;
- /* height: calc(100% + 60px);*/
+  height: calc(100% + 5px);
   padding-bottom: 60px;
   background-color: #FFF;
   z-index: 999;
@@ -6788,7 +6790,7 @@ overflow-y: auto;
     margin: 0; }
   ul.side-nav li {
     float: none;
-    padding: 0 15px; }
+    padding: 0 1%; }
     ul.side-nav li:hover, ul.side-nav li.active {
       background-color: #ddd; }
   ul.side-nav a {
@@ -6803,7 +6805,7 @@ overflow-y: auto;
 
 ul.side-nav.fixed a {
   display: block;
-  padding: 0 15px;
+  /*padding: 0 15px;*/
   color: #444; }
 
 ul.side-nav.fixed {

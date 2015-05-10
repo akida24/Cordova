@@ -405,34 +405,6 @@ html,body
 }
 
 
-#top {
-    
-    height: 3rem;
-    position: fixed;
-    text-align: left;
-    top: 5px;
-    /* width: 50%; */
-    padding-left: 4%;
-}
-
-#button_menu {
-    
-    background-color: transparent;
-    border: none;
-    border-bottom-style: none;
-    color: white;
-    font-size: 2.5rem;
-    padding: 3%;
-}
-
-#button_menu:hover{
-    
-    color:#00bfa5;
-    background-color: transparent;
-
-}
-
-
 #top_twitter{
     
     height: 3rem;
@@ -441,22 +413,6 @@ html,body
     padding: 0;
     
 }
-
-
-#menu_smartphone {
-    
-    height: 100%;  
-    width: 11.5rem;
-    max-width: 15rem;
-    position:fixed;
-    font-size: 1.2rem;
-    top:0;
-    bottom:0;
-    left:-35.6rem;
-    z-index:9999;
-    float: left;
-
-} 
 
 
 #nav_ ul {
@@ -479,10 +435,10 @@ html,body
     background-color: transparent;
     position: static;
     color: white;
-    padding-left: 5%;
+    padding-left: 8%;
     padding-top: 8%;
     padding-bottom: 10%;
-    
+    font-size: 125%;
     text-align: left;
 }
 
