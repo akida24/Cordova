@@ -22,45 +22,6 @@
         
         <script type="text/javascript" >
 
-                $(document).ready(function() 
-        {
-            var isMenuOpen = false;
-
-            $('.menu_btn').click(function()
-            {
-                if (isMenuOpen == false)
-                {
-                    $("#menu_smartphone").clearQueue().animate({
-                        left : '0px' 
-                    })            
-              $("#grey_back").fadeIn('fast');
-                    $(this).fadeOut(200);
-                    $(".close").fadeIn(300);
-
-                    isMenuOpen = true;
-                } 
-            });     
-                         
-                $('#grey_back').click(function()
-            {
-                if (isMenuOpen == true)
-                {
-                    $("#menu_smartphone").clearQueue().animate({
-                        left : '-570px'
-                    })
-                    $("#page").clearQueue().animate({
-                        "margin-left" : '0px'
-                    })            
-              $("#grey_back").fadeOut('fast');
-                    $(this).fadeOut(200);
-                    $(".menu_btn").fadeIn(300);
-
-                    isMenuOpen = false;
-                }
-            });
-        });
-            
-            
             //chiusura app
              function onLoad(){
                   document.addEventListener("deviceready", onDeviceReady, true);
@@ -86,41 +47,45 @@
                     return;
                 };
             };
-            </script>
-
-
-          <div class="blue-grey darken-3" style="position:relative">
-              <div id="top" >
-                  <button id="button_menu" class="btn_flat menu_btn"><i id="menu_icona" class="fa fa-bars fa-fw"></i></button>
-            </div>
-
-            <div id="grey_back">&nbsp;</div>
-        
-            <div id="menu_smartphone" class="teal accent-4" style="overflow-y:auto;"> <!-- teal e lighten-2 sono due classi per il colore di materialiazecss -->
-                <ul>
-                    <li><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
-                    <li><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
-                    <li><a href="service.html"><button><i class="fa fa-scissors fa-fw"></i>Servizi</button></a></li>
-                    <li><a href="gallery.html"><button><i class="fa fa-picture-o"></i>Galleria</button></a></li>
-                    <li><a href="prodotti.html"><button><i class="fa fa-flask fa-fw"></i>Prodotti</button></a></li>
-                    <li><a href="promo.html"><button><i class="fa fa-credit-card"></i>Card</button></a></li>
-                    <li><a href="style.html"><button><i class="fa fa-heart"></i>Moda</button></a></li>
-                    <li><a href="social.html"><button><i class="fa fa-twitter fa-fw"></i>Twitter</button></a></li>
-                    <li><a href="contatti.html"><button><i class="fa fa-map-marker fa-fw"></i>Contatti</button></a></li>
-                    <li><a href="#"><button onclick="closeFunction()"><i class="fa fa-sign-out"></i>Esci</button></a></li>
-
-
-                </ul>
-              </div>   
-
-
-        <script> $(document).ready(function(){
+            
+ 
+        $(document).ready(function(){
             $('.collapsible').collapsible({
               accordion : false
             });
           });
 
         </script>
+        
+          <!--  Menù -->
+            
+            <nav id="nav_">
+                  <ul id="slide-out" class="teal accent-4 side-nav fixed">
+                    <li ><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
+                    <li ><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
+                    <li ><a href="service.html"><button><i class="fa fa-scissors fa-fw"></i>Servizi</button></a></li>
+                    <li ><a href="gallery.html"><button><i class="fa fa-picture-o"></i>Galleria</button></a></li>
+                    <li ><a href="prodotti.html"><button><i class="fa fa-flask fa-fw"></i>Prodotti</button></a></li>
+                    <li ><a href="promo.html"><button><i class="fa fa-credit-card"></i>Card</button></a></li>
+                    <li ><a href="style.html"><button><i class="fa fa-heart"></i>Moda</button></a></li>
+                    <li ><a href="social.html"><button><i class="fa fa-twitter fa-fw"></i>Twitter</button></a></li>
+                    <li ><a href="contatti.html"><button><i class="fa fa-map-marker fa-fw"></i>Contatti</button></a></li>
+                    <li ><a href="#"><button onclick="closeFunction()"><i class="fa fa-sign-out"></i>Esci</button></a></li>
+                  </ul>
+                  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+             </nav>
+           
+        
+         <script>
+            
+              $('.button-collapse').sideNav({
+                  menuWidth: 180, // Default is 240
+                  edge: 'left', // Choose the horizontal origin
+                  closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                }
+              );
+     
+         </script>
 
 
 
