@@ -1742,19 +1742,19 @@ $(document).ready(function(){
         function removeMenu() {
           panning = false;
           menuOut = false;
-          $('#sidenav-overlay').velocity({opacity: 0}, {duration: 200, queue: false, easing: 'easeOutQuad',
+          $('#sidenav-overlay').velocity({opacity: 0}, {duration: 100, queue: false, easing: 'easeOutQuad',
             complete: function() {
               $(this).remove();
             } });
           if (options.edge === 'left') {
             // Reset phantom div
             $('.drag-target').css({width: '', right: '', left: '0'});
-            menu_id.velocity({left: -1 * (options.menuWidth + 10)}, {duration: 200, queue: false, easing: 'easeOutCubic'});
+            menu_id.velocity({left: -1 * (options.menuWidth + 10)}, {duration: 100, queue: false, easing: 'easeOutCubic'});
           }
           else {
             // Reset phantom div
             $('.drag-target').css({width: '', right: '0', left: ''});
-            menu_id.velocity({right: -1 * (options.menuWidth + 10)}, {duration: 200, queue: false, easing: 'easeOutCubic'});
+            menu_id.velocity({right: -1 * (options.menuWidth + 10)}, {duration: 100, queue: false, easing: 'easeOutCubic'});
           }
 
           // enable_scroll();

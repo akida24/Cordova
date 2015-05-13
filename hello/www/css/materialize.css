@@ -5059,14 +5059,13 @@ span.badge {
 
 nav {
   color: #fff;
-  background-color: transparent;
+  background-color: #00bfa5;
     position: absolute;
-  width: 10%;
-  height: 56px;
-    top: 1%;
-    margin-left: 4%;
-  /*line-height: 56px;*/
-  overflow: hidden; }
+  width: 45px;
+  height: 55px;
+    top: 0%;
+ /*line-height: 56px;*/
+ /* overflow: hidden*/; }
   nav a {
     color: transparent; }
   nav .nav-wrapper {
@@ -5079,7 +5078,7 @@ nav {
       display: none; }
  }
   nav a.button-collapse {
-    float: left;
+   /* float: left;*/
     position: relative;
     z-index: 1;
     height: 56px;
@@ -5612,8 +5611,8 @@ small {
     text-transform: uppercase;
     width: 15%; }
     .tabs li.tab a {
-      color: #00796b;
-        font-size: 1.3rem;
+      color: #00bfa5;
+        /*font-size: 1.3rem;*/
         font-family: "open sans";
       display: block;
       width: 100%;
@@ -5629,7 +5628,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 12px;
-    background-color: #00796b;
+    background-color: #00bfa5;
     will-change: left, right; }
 
 ul.tabs li.tab {
