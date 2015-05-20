@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "0521ef23-51d3-474b-87fd-f2c689827d34",
-      "lastModifiedDate": 1431637788500,
+      "lastModifiedDate": 1432137762080,
       "creationDate": 1424974361471
     },
     "sourceDirectory": "",
@@ -104,38 +104,31 @@
         ],
         "splashes_": [
           {
-            "relPath": "img/Icon/launchscreen.jpg",
-            "density": "ldpi",
-            "height": 426,
-            "width": 320,
-            "orientation": "portrait"
-          },
-          {
-            "relPath": "img/Icon/launchscreenM.jpg",
+            "relPath": "img/Icon/Splash_screen/MDPI.png",
             "density": "mdpi",
             "height": 470,
             "width": 320,
             "orientation": "portrait"
           },
           {
-            "relPath": "img/Icon/launchscreenH.jpg",
-            "density": "hdpi",
-            "height": 640,
-            "width": 480,
-            "orientation": "portrait"
-          },
-          {
-            "relPath": "img/Icon/launchscreenX.jpg",
+            "relPath": "img/Icon/Splash_screen/XDPI.png",
             "density": "xhdpi",
             "height": 960,
             "width": 720,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/HDPI.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
             "orientation": "portrait"
           }
         ],
         "addlPermissions_": "INTERNET;ACCESS_NETWORK_STATE;ACCESS_WIFI_STATE",
         "excludedLibraries_": "",
-        "appVersion_": "0.1.7",
-        "appVersionCode_": "60016",
+        "appVersion_": "0.1.9",
+        "appVersionCode_": "60019",
         "crosswalkVersion_": "10",
         "cordovaCLIVersion_": "4.1.2",
         "appAuthor_": "Twistar | Creative Multimedia Design",
@@ -176,7 +169,7 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "6",
-          "ios-configuration": "adhoc",
+          "ios-configuration": "production",
           "Orientation": "portrait",
           "exit-on-suspend": true
         },
@@ -188,21 +181,94 @@
             "origin": "*"
           }
         ],
-        "icons_": [],
-        "splashes_": [],
+        "icons_": [
+          {
+            "relPath": "img/Icon/Android Icon/Apple180.png",
+            "height": 180,
+            "width": 180
+          },
+          {
+            "relPath": "img/Icon/Android Icon/Apple120.png",
+            "height": 120,
+            "width": 120
+          },
+          {
+            "relPath": "img/Icon/Android Icon/Apple60.png",
+            "height": 60,
+            "width": 60
+          },
+          {
+            "relPath": "img/Icon/Android Icon/Apple152.png",
+            "height": 152,
+            "width": 152
+          },
+          {
+            "relPath": "img/Icon/Android Icon/Apple76.png",
+            "height": 76,
+            "width": 76
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "img/Icon/Splash_screen/Apple1334XDPI.png",
+            "height": 1334,
+            "width": 750,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple1XDPI.png",
+            "height": 2208,
+            "width": 1242,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple1136XDPI.png",
+            "height": 1136,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple960XDPI.png",
+            "height": 960,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple480XDPI.png",
+            "height": 480,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple1536XDPI.png",
+            "height": 2008,
+            "width": 1536,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "img/Icon/Splash_screen/Apple1004XDPI.png",
+            "height": 1004,
+            "width": 768,
+            "orientation": "portrait"
+          }
+        ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
+        "appVersion_": "0.0.3",
         "cordovaCLIVersion_": "4.1.2",
         "iosProvs_": [
           {
             "relPath": "TwistarDevelopment.mobileprovision",
             "type": "adhoc"
+          },
+          {
+            "relPath": "TwistarDesignDevelopment.mobileprovision",
+            "type": "production"
           }
         ],
         "appDescription_": "Un punto di riferimento per i capelli ed il benessere a Tortona (AL) ",
         "appAuthor_": "Twistar | Creative Multimedia Design",
-        "appVersionCode_": "1.0"
+        "appVersionCode_": "3"
       },
       "Windows8": {
         "platform_": "windows8",

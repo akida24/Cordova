@@ -5059,12 +5059,13 @@ span.badge {
 
 nav {
   color: #fff;
-  background-color: transparent;
+    box-shadow: 4px 4px 5px #263238 ; /*per togliere il bordino rompipalle */
+ background-color: transparent;
     position: absolute;
-  width: 50px;
+    left: 2%;
+  width: 40px;
   height: 55px;
-    top: 0%;
-    left: 0.8rem;
+    top: 1%;
  /*line-height: 56px;*/
  /* overflow: hidden*/; }
   nav a {
@@ -5212,7 +5213,7 @@ a {
   text-decoration: none; }
 
 html {
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87); }
@@ -5434,7 +5435,7 @@ small {
     .card .card-title.activator {
       cursor: pointer; }
   .card a {
-    color: #4db6ac;
+    color: #00bfa5;
     margin-right: 20px;
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
@@ -5624,7 +5625,7 @@ small {
       -ms-transition: color 0.28s ease;
       transition: color 0.28s ease; }
       .tabs li.tab a:hover {
-        color: #00796b; }
+        color: #00bfa5; }
   .tabs .indicator {
     position: absolute;
     bottom: 0;
@@ -6037,7 +6038,7 @@ ul.side-nav .collapsible-header {
   border: none;
   line-height: inherit;
   height: inherit;
-  margin: 0 1rem; }
+  margin: 0 ; }
   ul.side-nav .collapsible-header i {
     line-height: inherit; }
 ul.side-nav .collapsible-body {

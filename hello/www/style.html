@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 
 <html>
     <head>
-
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
@@ -18,61 +16,26 @@
         
         <title>Angelo Giordano App</title>
     </head>
-     
-     <body class="basic blue-grey darken-4">
+    
+    <body class="basic blue-grey darken-4">
         <div >
-            <img class="logo_top" src="./img/logo.png" />
-
-            <script>                
-                $(document).ready(function(){
-              $('.slider').slider({full_width: true});
-            });
-                
-                $(document).ready(function(){
-                    $('.materialboxed').materialbox();
-                  });
-            </script>
+            <img class="logo_top" src="./img/logo.png">
             
-            <div class="row">
-                <div class="col s12">
-                  <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#uno">Acconciature</a></li>
-                    <li class="tab col s3"><a  href="#due">Salone</a></li>
-                    
-                  </ul>
-                </div>
-                <div id="uno" class="col s12">
-                    <div class="slider container">
-                        <ul id="lista_img" class="slides">
-                            <li><img class=" responsive-img" src="./img/foto/Gallery/image1bis.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Gallery/image4bis.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Gallery/foto_03.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Gallery/foto_04.jpg"/></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="due" class="col s12">
-                    <div class="slider">
-                        <ul id="lista_img" class="slides">
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_02.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_10.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_11.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_06.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_05.jpg"/></li>
-                            <li><img class=" responsive-img" src="./img/foto/Negozio/Angelo_foto_08.jpg"/></li>
-
-
-                        </ul>
-                    </div>
-                </div>
-                
-              </div>
-            
-           
-                    
-
+            <div class="style" >
+                <div id="style_title" ><h1 id="title"> Primavera/Estate 2015</h1> </div>
+                <div id="style_cont">
+                    <img class="z-depth-4" id="giordi_esterno" src="./img/foto/Negozio/Angelo_foto_03.jpg"/>
+                    <p>Ritorno allo scalato rivisto e corretto denominato SWAG, per creare movimento già dalla frangia o dal ciuffo.
+Molto attuale il LONG BOB, ricreato miscelando graduazione e leggera scalatura, ritorna la riga da un lato. Ritorna il mosso naturale effetto BEACH WAWES per dare morbidezza. Sempre in auge frangia su capelli lunghi. </p>
+<p>Parola d'ordine, capelli spettinati sia lisci che mossi ma sobri.
+Capelli perfettamente sani e lucidissimi.
+Tornano le trecce, chignon spettinati e coda bassa.
+Ritorno al colore naturale, colorazioni glossy che rendono i capelli radiosi e vibranti.</p>
+<p>Le tonalità sono calde nelle varianti dei biondi e dei castani con leggere sfumature più chiare sulle lunghezze ma più all'interno.
+I ramati sono naturalissimi e i bruni e i neri pieni ma mai finti.</p></div>
+            </div>
+         
         <script type="text/javascript" >
-
        
             //chiusura app
           
@@ -106,9 +69,9 @@
             
          </script>
             
-           <!--  Menù -->
+            <!--  Menù -->
             
-            <nav id="nav_">
+            <nav id="nav_" class="">
                   <ul id="slide-out" class="teal accent-4 side-nav fixed">
                     <li ><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
                     <li ><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
@@ -134,11 +97,12 @@
                 }
               );
 
+             
                       
          </script>
-        
+         
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="intelxdk.js"></script>
-
+        
     </body>
 </html>

@@ -16,38 +16,36 @@
         
         <title>Angelo Giordano App</title>
     </head>
-    <body class="basic blue-grey darken-4">
-            <img class="logo_top" src="img/logo.png">
-                <div class="cont_promo">
-                    <div class="row">
-                        <div class="promo_icon" ><i class="fa fa-credit-card"></i></div>
-                        <div class="promo_text" >
-                            <h3 class="blink"> Brushing card </h3>
-                            <h4>400.00 €</h4>
-                            <p></p>
-                            <p id="testo_card">Una piega alla settimana per 4 mesi valevole dal martedì al sabato. I prodotti usati sono della linea Bamboo di Alterna Haircare.</p>
-                            </div>
-                     </div>
-                 </div>
-                <div class="cont_promo  blue-grey darken-3">
-                    <div class="row">
-                        <div class="promo_icon" ><i class="fa fa-credit-card"></i></div>
-                        <div class="promo_text" >
-                            <h3 class="blink"> Brushing card Special </h3>
-                            <h4>480.00 €</h4>
-                            <p></p>
-                            <p id="testo_card">Una piega alla settimana per 4 mesi valevole dal martedì al sabato. I prodotti usati sono della linea Caviar di Alterna HairCare.</p>
-                        </div>
-                    </div>
-                 </div>
-
-        <script type="text/javascript" >
-
+    <body class="basic blue-grey darken-4"> 
+         <div >
+            <img class="logo_top" />
+             
+         <div id="lista_prodotti"> 
+             
+          
+             <ul>
+               <li><a href="http://www.adiflagstore.it/alterna/"><button class=" z-depth-5 product"><img src="./img/Loghi/adi_logo.jpg" /></button></a><a href="http://www.alternahaircare.it/"><button class=" z-depth-5 product"><img src="./img/Loghi/alterna_logo.jpg" /></button></a></li>
+               <li><a href="http://invisibobble.com/"><button class="z-depth-5 product"><img src="./img/Loghi/invisibobble_logo.jpg" /></button></a><a href="http://www.colourenergy.it/"><button class="z-depth-5 product"><img src="./img/Loghi/colour_energy_logo.jpg" /></button></a></li>
+              <li><a href="http://www.gamila.com/#/"><button class="z-depth-5 product"><img src="./img/Loghi/gamila_logo.jpg" /></button></a><a href="http://www.tangleteezer.com/"><button class="z-depth-5 product"><img src="./img/Loghi/tangleteezer_logo.jpg" /></button></a></li>
+                 <li><a href="http://www.peggysage.com/"><button class="z-depth-5 product"><img src="./img/Loghi/peggy_logo.jpg" /></button></a></li>
+               
+             </ul>
+                
+         </div>
+        
+        
+    <script type="text/javascript" >
     
+        
             //chiusura app
+          
             document.addEventListener("deviceready", onDeviceReady, true);
+                        
+            function onDeviceReady(){
+              /*  document.addEventListener("backbutton", function(e){
+                    exitAppPopup();*/
+            };
 
-           
             function closeFunction() {
                 navigator.notification.confirm(
                     "Vuoi veramente chiudere l'app?", 
@@ -55,12 +53,13 @@
                         ConfirmExit(buttonIndex);
                     }, 
                     "Confirmation", 
-                    "Si,No"
+                    ["Si","No"]
                 ); 
                 
             };
  
             function ConfirmExit(stat){
+
                if(stat == "1"){
                     navigator.app.exitApp();
                 }else{
@@ -68,11 +67,11 @@
                 };
             };
             
-            </script>
+         </script>
         
-        <!--  Menù -->
+  <!--  Menù -->
             
-            <nav id="nav_">
+            <nav id="nav_" class="">
                   <ul id="slide-out" class="teal accent-4 side-nav fixed">
                     <li ><a href="index.html"><button><i class="fa fa-home fa-fw"></i>Home</button></a></li>
                     <li ><a href="chisono.html"><button><i class="fa fa-user"></i>Chi sono</button></a></li>
@@ -97,12 +96,14 @@
                   closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
                 }
               );
-     
+
+             
+                      
          </script>
 
-
-
-            
-        <script type="text/javascript" src="cordova.js"></script>
-  </body>
+    
+    
+             <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="intelxdk.js"></script>
+    </body>
 </html>
