@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "dda693d0-7318-409e-bef7-df6cff8489cf",
-      "lastModifiedDate": 1442155869391,
+      "lastModifiedDate": 1442177556566,
       "creationDate": 1441117846718
     },
     "sourceDirectory": "hello/www",
@@ -40,6 +40,14 @@
       {
         "id": "org.apache.cordova.device",
         "version": "0.2.13",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "com.phonegap.plugins.twitter",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
